@@ -1,0 +1,7 @@
+<ConditionalActions>
+
+<HasFlags requiredFlags="SSL2">
+<AddMissionToHubServer MissionFilepath="Missions/HubMissions/hub08.xml" TargetComp="hellDHS"/>
+</HasFlags>
+
+</ConditionalActions>

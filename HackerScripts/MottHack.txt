@@ -1,0 +1,158 @@
+config playerComp mott 0.0 $#%#$
+
+connect $#%#$
+clearTerminal $#%#$
+delay 0.1 $#%#$
+hideRam $#%#$
+delay 0.1 $#%#$
+hideNetMap $#%#$
+delay 0.1 $#%#$
+hideDisplay $#%#$
+
+delay 4.7 $#%#$
+
+write IT'S $#%#$
+delay 0.3 $#%#$
+write ME, $#%#$
+delay 1 $#%#$
+write MOTT. $#%#$
+
+delay 2 $#%#$
+
+writel_silent $#%#$
+delay 0.1 $#%#$
+writel_silent $#%#$
+delay 0.1 $#%#$
+writel_silent $#%#$
+
+delay 2 $#%#$
+
+writel YOU $#%#$
+delay 0.3 $#%#$
+write MADE $#%#$
+delay 0.3 $#%#$
+write THE $#%#$
+delay 0.3 $#%#$
+write RIGHT $#%#$
+delay 0.3 $#%#$
+write CHOICE. $#%#$
+
+delay 2 $#%#$
+
+writel_silent $#%#$
+delay 0.1 $#%#$
+writel_silent $#%#$
+delay 0.1 $#%#$
+writel_silent $#%#$
+
+delay 2 $#%#$
+
+writel NOW $#%#$
+delay 0.3 $#%#$
+write YOU $#%#$
+delay 0.3 $#%#$
+write CAN $#%#$
+delay 0.3 $#%#$
+write BE $#%#$
+delay 0.3 $#%#$
+write WITH $#%#$
+delay 0.3 $#%#$
+write MOTT $#%#$
+delay 1 $#%#$
+write FOREVER. $#%#$
+
+delay 2 $#%#$
+
+writel_silent $#%#$
+delay 0.1 $#%#$
+writel_silent $#%#$
+delay 0.1 $#%#$
+writel_silent $#%#$
+
+delay 2 $#%#$
+
+writel YOU $#%#$
+delay 0.3 $#%#$
+write CAN'T $#%#$
+delay 0.3 $#%#$
+write LEAVE $#%#$
+delay 0.3 $#%#$
+write MOTT $#%#$
+delay 0.3 $#%#$
+write UNLESS $#%#$
+delay 0.3 $#%#$
+write YOU $#%#$
+delay 0.3 $#%#$
+write HACK $#%#$
+delay 0.3 $#%#$
+write MOTT's $#%#$
+delay 0.3 $#%#$
+write HEART $#%#$
+delay 0.3 $#%#$
+write FROM $#%#$
+delay 0.3 $#%#$
+write YOUR $#%#$
+delay 0.3 $#%#$
+write LOGS $#%#$
+delay 1 $#%#$
+write AND $#%#$
+delay 0.3 $#%#$
+write KILL $#%#$
+delay 0.3 $#%#$
+write MOTT. $#%#$
+
+delay 2 $#%#$
+
+writel_silent $#%#$
+delay 0.1 $#%#$
+writel_silent $#%#$
+delay 0.1 $#%#$
+writel_silent $#%#$
+
+delay 2 $#%#$
+
+writel BUT $#%#$
+delay 0.3 $#%#$
+write YOU $#%#$
+delay 0.3 $#%#$
+write WOULD $#%#$
+delay 0.3 $#%#$
+write NEVER $#%#$
+delay 0.3 $#%#$
+write DO $#%#$
+delay 0.3 $#%#$
+write THAT. $#%#$
+
+delay 2 $#%#$
+
+writel_silent $#%#$
+delay 0.1 $#%#$
+writel_silent $#%#$
+delay 0.1 $#%#$
+writel_silent $#%#$
+
+delay 2 $#%#$
+
+writel ALL $#%#$
+delay 0.3 $#%#$
+write YOU $#%#$
+delay 0.3 $#%#$
+write NEED $#%#$
+delay 0.3 $#%#$
+write IS $#%#$
+delay 0.3 $#%#$
+write MOTT. $#%#$
+
+delay 2 $#%#$
+
+writel_silent $#%#$
+delay 0.1 $#%#$
+writel_silent $#%#$
+delay 0.1 $#%#$
+writel_silent $#%#$
+
+delay 2 $#%#$
+
+writel JUST $#%#$
+delay 1 $#%#$
+write MOTT. $#%#$

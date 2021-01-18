@@ -1,0 +1,150 @@
+config playerComp unityETAS1 0.0 $#%#$
+
+connect $#%#$
+delay 0.2 $#%#$
+hideRam $#%#$
+delay 0.2 $#%#$
+clearTerminal $#%#$
+
+delay 2.6 $#%#$
+
+flash $#%#$
+
+delay 0.5 $#%#$
+
+flash $#%#$
+
+delay 0.5 $#%#$
+
+flash $#%#$
+
+delay 0.5 $#%#$
+
+flash $#%#$
+
+delay 0.5 $#%#$
+
+flash $#%#$
+
+delay 0.5 $#%#$
+
+flash $#%#$
+
+delay 0.5 $#%#$
+
+flash $#%#$
+
+delay 0.5 $#%#$
+
+flash $#%#$
+
+delay 0.5 $#%#$
+
+flash $#%#$
+
+delay 0.5 $#%#$
+
+flash $#%#$
+
+delay 0.5 $#%#$
+
+flash $#%#$
+
+delay 0.5 $#%#$
+
+flash $#%#$
+
+delay 0.5 $#%#$
+
+flash $#%#$
+
+delay 0.5 $#%#$
+
+flash $#%#$
+
+delay 0.5 $#%#$
+
+flash $#%#$
+
+delay 0.5 $#%#$
+
+flash $#%#$
+
+delay 0.5 $#%#$
+
+flash $#%#$
+
+delay 0.5 $#%#$
+
+flash $#%#$
+
+delay 0.5 $#%#$
+
+flash $#%#$
+
+delay 0.5 $#%#$
+
+flash $#%#$
+
+delay 0.5 $#%#$
+
+flash $#%#$
+
+delay 0.5 $#%#$
+
+flash $#%#$
+
+delay 0.5 $#%#$
+
+flash $#%#$
+
+delay 0.5 $#%#$
+
+flash $#%#$
+
+delay 0.5 $#%#$
+
+flash $#%#$
+
+delay 0.5 $#%#$
+
+flash $#%#$
+
+delay 0.5 $#%#$
+
+flash $#%#$
+
+delay 0.5 $#%#$
+
+flash $#%#$
+
+delay 0.5 $#%#$
+
+flash $#%#$
+
+delay 0.5 $#%#$
+
+flash $#%#$
+
+delay 0.5 $#%#$
+
+flash $#%#$
+
+delay 0.5 $#%#$
+
+flash $#%#$
+
+delay 0.5 $#%#$
+
+flash $#%#$
+
+delay 0.5 $#%#$
+
+flash $#%#$
+
+delay 0.5 $#%#$
+
+instanttrace $#%#$
+
+disconnect $#%#$
+

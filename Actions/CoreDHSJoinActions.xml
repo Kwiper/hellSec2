@@ -1,0 +1,10 @@
+<ConditionalActions>
+
+<OnConnect target="coreDHS">
+<AddIRCMessage Author="CORE" TargetComp="coreDHS" Delay="0.0">================================</AddIRCMessage>
+<AddIRCMessage Author="CORE" TargetComp="coreDHS" Delay="0.0">*** @#PLAYERNAME# HAS JOINED ***</AddIRCMessage>
+<AddIRCMessage Author="CORE" TargetComp="coreDHS" Delay="0.0">================================</AddIRCMessage>
+<AddIRCMessage Author="L" TargetComp="coreDHS" Delay="5.0">...Who the hell are you?</AddIRCMessage>
+</OnConnect>
+
+</ConditionalActions>

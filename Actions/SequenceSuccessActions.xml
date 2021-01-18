@@ -1,0 +1,20 @@
+<ConditionalActions>
+
+<Instantly>
+<AddConditionalActions Filepath="Actions/Z3r0JoinActions.xml" DelayHost="cheat" Delay="10.0"/>
+<LoadMission MissionName="Missions/Prison/TransitionMission.xml"/>
+<CrashComputer TargetComp="prisonBreak" CrashSource="cheat" DelayHost="cheat" Delay="0.0"/>
+<SwitchToTheme ThemePathOrName="HacknetMint" FlickerInDuration="1.0" DelayHost="cheat" Delay="3.0"/>
+<CancelScreenBleedEffect DelayHost="cheat" Delay="0.0"/>
+<KillExe DelayHost="cheat" Delay="0.0" ExeName="*"/>
+<LaunchHackScript Filepath="HackerScripts/BeepHack.txt" DelayHost="cheat" Delay="1.0" SourceComp="cheat" TargetComp="playerComp" RequireLogsOnSource="false"/>
+<RunFunction FunctionName="changeSongDLC" FunctionValue="9"/>
+<HideNode DelayHost="cheat" Delay="0.0" TargetComp="prisonBreak"/>
+<RunFunction FunctionName="removeFlags:Sequencer"/>
+
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="4.0">Nice one, @#PLAYERNAME#!</AddIRCMessage>
+<AddIRCMessage Author="Cardinal" TargetComp="hellDHS" Delay="7.0">This is why we always get #PLAYERNAME# to do things.</AddIRCMessage>
+<AddIRCMessage Author="Hel" TargetComp="hellDHS" Delay="10.0">Nice, #PLAYERNAME#</AddIRCMessage>
+</Instantly>
+
+</ConditionalActions>

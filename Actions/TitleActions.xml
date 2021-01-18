@@ -1,0 +1,46 @@
+<ConditionalActions>
+
+
+<Instantly>
+
+<RunFunction FunctionName="addFlags:Mott"/>
+<RunFunction FunctionName="addFlags:Sequencer"/>
+
+<RunFunction FunctionName="changeSongDLC" FunctionValue="10"/>
+
+<CrashComputer TargetComp="lockdown3" CrashSource="cheat" DelayHost="cheat" Delay="0.1" />
+<CrashComputer TargetComp="lockdown2" CrashSource="cheat" DelayHost="cheat" Delay="0.1" />
+<CrashComputer TargetComp="lockdown1" CrashSource="cheat" DelayHost="cheat" Delay="0.1" />
+<HideNode DelayHost="cheat" Delay="0.0" TargetComp="lockdown1" />
+<HideNode DelayHost="cheat" Delay="0.0" TargetComp="lockdown2" />
+<HideNode DelayHost="cheat" Delay="0.0" TargetComp="lockdown3" />
+
+<LaunchHackScript Filepath="HackerScripts/TitleHack.txt" 
+                  DelayHost="cheat" Delay="0.0" SourceComp="cheat" TargetComp="playerComp" RequireLogsOnSource="false"/>
+
+
+<SwitchToTheme ThemePathOrName="Themes/Titles/Title1.xml" FlickerInDuration="0.0" DelayHost="cheat" Delay="1.5" />
+<SwitchToTheme ThemePathOrName="Themes/Titles/Title2.xml" FlickerInDuration="0.0" DelayHost="cheat" Delay="1.8" />
+<SwitchToTheme ThemePathOrName="Themes/Titles/Title3.xml" FlickerInDuration="0.0" DelayHost="cheat" Delay="2.4" />
+<SwitchToTheme ThemePathOrName="Themes/Titles/Title4.xml" FlickerInDuration="0.0" DelayHost="cheat" Delay="2.6" />
+<SwitchToTheme ThemePathOrName="Themes/Titles/Title5.xml" FlickerInDuration="0.0" DelayHost="cheat" Delay="3.0" />
+<SwitchToTheme ThemePathOrName="Themes/Titles/Title6.xml" FlickerInDuration="0.0" DelayHost="cheat" Delay="3.3" />
+<SwitchToTheme ThemePathOrName="Themes/Titles/Title7.xml" FlickerInDuration="0.0" DelayHost="cheat" Delay="3.7" />
+<SwitchToTheme ThemePathOrName="Themes/Titles/Title8.xml" FlickerInDuration="0.0" DelayHost="cheat" Delay="4.0" />
+<SwitchToTheme ThemePathOrName="Themes/Titles/Title9.xml" FlickerInDuration="0.0" DelayHost="cheat" Delay="4.1" />
+<SwitchToTheme ThemePathOrName="Themes/Titles/Title10.xml" FlickerInDuration="0.0" DelayHost="cheat" Delay="4.4" />
+<SwitchToTheme ThemePathOrName="Themes/Titles/Title11.xml" FlickerInDuration="0.0" DelayHost="cheat" Delay="4.6" />
+<SwitchToTheme ThemePathOrName="Themes/Titles/Title12.xml" FlickerInDuration="0.0" DelayHost="cheat" Delay="4.9" />
+<SwitchToTheme ThemePathOrName="Themes/Titles/Title13.xml" FlickerInDuration="0.0" DelayHost="cheat" Delay="5.3" />
+<SwitchToTheme ThemePathOrName="Themes/Titles/Title14.xml" FlickerInDuration="0.0" DelayHost="cheat" Delay="5.7" />
+<SwitchToTheme ThemePathOrName="Themes/Titles/Title15.xml" FlickerInDuration="0.0" DelayHost="cheat" Delay="6.0" />
+
+<SwitchToTheme ThemePathOrName="HacknetMint" FlickerInDuration="2.0" DelayHost="cheat" Delay="8.0"/>
+
+<AddConditionalActions Filepath="Actions/WelcomeActions.xml" DelayHost="cheat" Delay="9.0"/>
+
+</Instantly>
+
+
+
+</ConditionalActions>

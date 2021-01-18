@@ -1,0 +1,8 @@
+<ConditionalActions>
+
+<Instantly>
+<RunFunction FunctionName="playCustomSongImmediatley:Music/Silent.ogg"/>
+<LaunchHackScript Filepath="HackerScripts/ConnectHack.txt" DelayHost="cheat" Delay="0.0" SourceComp="cheat" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+</Instantly>
+
+</ConditionalActions>

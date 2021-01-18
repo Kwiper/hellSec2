@@ -1,0 +1,25 @@
+config playerComp cheat 0.0 $#%#$
+
+hideNetMap $#%#$
+hideRam $#%#$
+hideDisplay $#%#$
+hideTerminal $#%#$
+clearTerminal $#%#$
+
+delay 8.5 
+
+delay 0.1 $#%#$
+
+showRam $#%#$
+
+delay 0.1 $#%#$
+
+showDisplay $#%#$
+
+delay 0.1 $#%#$
+
+showTerminal $#%#$
+
+delay 0.1 $#%#$
+
+showNetMap $#%#$

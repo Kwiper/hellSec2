@@ -1,0 +1,16 @@
+<ConditionalActions>
+
+<Instantly>
+<LoadMission MissionName="Missions/Mott/MottFinal.xml"/>
+<AddConditionalActions Filepath="Actions/MottAnimationActions.xml" DelayHost="cheat" Delay="4.0"/>
+<RunFunction FunctionName="playCustomSongImmediatley:Music/Silent.ogg" DelayHost="cheat" Delay="0.0"/>
+<SwitchToTheme ThemePathOrName="Themes/Mott/MottGlitch1.xml" FlickerInDuration="0.0" DelayHost="cheat" Delay="3.0"/>
+<SwitchToTheme ThemePathOrName="Themes/Mott/MottGlitch2.xml" FlickerInDuration="0.0" DelayHost="cheat" Delay="3.5"/>
+<LaunchHackScript Filepath="HackerScripts/MottHack.txt" DelayHost="cheat" 
+                                                           Delay="0.0" 
+                                                           SourceComp="mott" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+<RunFunction FunctionName="playCustomSong:Music/Mott.ogg" DelayHost="cheat" Delay="3.0"/>
+</Instantly>
+
+
+</ConditionalActions>

@@ -1,0 +1,7 @@
+<ConditionalActions>
+
+<OnConnect target="prisonWeb">
+<RunFunction FunctionName="playCustomSong:Music/Sexkiller_on_the_Loose.ogg"/>
+</OnConnect>
+
+</ConditionalActions>

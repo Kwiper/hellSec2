@@ -1,0 +1,51 @@
+<ConditionalActions>
+
+<Instantly>
+
+<AddConditionalActions Filepath="Actions/Z3r0MissionLoadActions.xml" DelayHost="cheat" Delay="120.0"/>
+
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="3.0">Anywho.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="7.0">If Z3r0 got the memo, he should be joining us pretty soon.</AddIRCMessage>
+<AddIRCMessage Author="Hel" TargetComp="hellDHS" Delay="10.0">How soon is soon?</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="12.0">Very soon.</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="hellDHS" Delay="15.0">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="hellDHS" Delay="16.0">User 'Z3r0' has joined the server.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="20.0">Well, this is a surprise.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="21.0">...</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="24.0">He's here.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="27.0">Good to see you too.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="31.0">Let's just get to business.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="35.0">I don't expect you guys to forgive me.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="40.0">But you need me, so can't you at least be slightly more inviting?</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="43.0">No promises.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="47.0">Better than nothing, I suppose.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="50.0">So Unity.</AddIRCMessage>
+<AddIRCMessage Author="Hel" TargetComp="hellDHS" Delay="53.0">How did you know?</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="58.0">Only possible explanation. You're a new face, where did you come from?</AddIRCMessage>
+<AddIRCMessage Author="Hel" TargetComp="hellDHS" Delay="62.0">Core. As well as Cardinal.</AddIRCMessage>
+<AddIRCMessage Author="Cardinal" TargetComp="hellDHS" Delay="65.0">Hi.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="70.0">Save it for later. Will you help us or not, Z3r0?</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="74.0">Of course, Unity must be stopped.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="77.0">Speak for yourself.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="81.0">I won't deny my actions. But I'm done with that now.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="85.0">And I'll prove it by helping you guys.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="90.0">I won't explain everything now. First, I need all of you to gather some things.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="94.0">I'll give each of you individual tasks to find everything I need.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="97.0">When did you take over?</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="101.0">Want my help or not?</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="105.0">That's what I thought.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="110.0">H3l1x, Quartz, Cardinal and Hel, you four will be sent off to gather more intel on Unity.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="115.0">#PLAYERNAME#, you will be acquiring a much needed tool in order for us to stop Unity.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="117.0">Understood?</AddIRCMessage>
+<AddIRCMessage Author="Hel" TargetComp="hellDHS" Delay="120.0">Yep.</AddIRCMessage>
+<AddIRCMessage Author="Cardinal" TargetComp="hellDHS" Delay="120.1">Yeah.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="120.5">Alright.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="121.0">Very well.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="124.0">Everything is on the mission listing.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="128.0">Sorry I can't help, but thanks to you guys, I'm a fugitive.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="131.0">Good luck.</AddIRCMessage>
+
+</Instantly>
+
+
+</ConditionalActions>

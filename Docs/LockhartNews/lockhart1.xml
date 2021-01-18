@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="lockhart1">
+<goals>
+</goals>
+
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Chemicals: A Cause of Homosexuality?">
+A stunning new study from researchers over at China has revealed that a certain chemical may lead to homosexuality in people.
+
+Serotonin is the chemical responsible for an organism's growth, reproduction or mood (among other things). Researchers in Georgia have revealed that serotonin levels have a direct correlation with mice's sexuality.
+
+We asked some local people how they feel about this discovery.
+
+"So what you're saying is I can turn my best friend gay?" said one man.
+"I've always wanted to become a lesbian so I could be with my lesbian friend!" said one woman.
+"I knew it, chemicals are responsible for turning the frigging frogs gay!" said another man.
+"I don't care, I'm already gay," said another woman.
+
+Where this discovery will lead, we can only guess.</posting>
+
+<email>
+<sender>Kwiper</sender>
+<subject>ERROR</subject>
+<body>If you're reading this, then shit is broken. Panic.</body>
+<attachments>
+</attachments>
+</email>
+</mission>

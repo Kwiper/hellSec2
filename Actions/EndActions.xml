@@ -1,0 +1,43 @@
+<ConditionalActions>
+
+<Instantly>
+<RunFunction FunctionName="changeSongDLC" FunctionValue="7"/>
+<CancelScreenBleedEffect DelayHost="cheat" Delay="0.0"/>
+
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="3.0">@#PLAYERNAME# You did it!</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="hellDHS" Delay="6.0">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="hellDHS" Delay="7.0">Crisis has been averted.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="10.0">Phew.</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="hellDHS" Delay="14.0">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="hellDHS" Delay="15.0">User 'H3l1x' has joined the server.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="18.0">Did we win?</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="20.0">We did.</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="hellDHS" Delay="21.0">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="hellDHS" Delay="22.0">User 'Hel' has joined the server.</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="hellDHS" Delay="23.0">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="hellDHS" Delay="24.0">User 'Cardinal' has joined the server.</AddIRCMessage>
+<AddIRCMessage Author="Hel" TargetComp="hellDHS" Delay="27.0">It's all over now.</AddIRCMessage>
+<AddIRCMessage Author="Cardinal" TargetComp="hellDHS" Delay="30.0">I hope.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="33.0">It is.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="36.0">Unity is no more.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="39.0">Where's Quartz at?</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="hellDHS" Delay="42.0">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="hellDHS" Delay="45.0">User 'Quartz' has joined the server.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="48.0">Miss me?</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="51.0">No.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="55.0">We're all back together.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="58.0">Now</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="60.0">Z3r0.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="64.0">Yeah?</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="68.0">Thanks.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="73.0">Hey, don't mention it.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="76.0">Now what were you going to say?</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="80.0">It's nothing. It's all yours, boss.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="83.0">If you insist.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="86.0">Back to work!</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="hellDHS" Delay="90.0">!ATTACHMENT:link#%#Credits#%#167.194.132.7</AddIRCMessage>
+
+</Instantly>
+
+
+</ConditionalActions>

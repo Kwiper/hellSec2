@@ -1,0 +1,13 @@
+<ConditionalActions>
+
+<HasFlags requiredFlags="Mott">
+<SwitchToTheme ThemePathOrName="Themes/Mott/Mott1.xml" FlickerInDuration="0.0" DelayHost="cheat" Delay="0.0"/>
+<SwitchToTheme ThemePathOrName="Themes/Mott/Mott2.xml" FlickerInDuration="0.0" DelayHost="cheat" Delay="0.3"/>
+<SwitchToTheme ThemePathOrName="Themes/Mott/Mott3.xml" FlickerInDuration="0.0" DelayHost="cheat" Delay="0.6"/>
+<SwitchToTheme ThemePathOrName="Themes/Mott/Mott4.xml" FlickerInDuration="0.0" DelayHost="cheat" Delay="0.9"/>
+<SwitchToTheme ThemePathOrName="Themes/Mott/Mott3.xml" FlickerInDuration="0.0" DelayHost="cheat" Delay="1.2"/>
+<SwitchToTheme ThemePathOrName="Themes/Mott/Mott2.xml" FlickerInDuration="0.0" DelayHost="cheat" Delay="1.5"/>
+<AddConditionalActions Filepath="Actions/MottAnimationActions.xml" DelayHost="cheat" Delay="1.8"/>
+</HasFlags>
+
+</ConditionalActions>

@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="lockhart3">
+<goals>
+</goals>
+
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Gay Teen is Worried He's Durtist">
+Jason Franklin, 18, seems like any ordinary gay teen. He's a member of his school's swing choir, enjoys shopping at the mall, and has sex with other males his age. 
+But lately, a growing worry has begun to plague this young gay man. A gnawing feeling that, deep down, he may be a fundamentalist, right-wing Durtist.
+
+"I don't know what's happening to me," Franklin admitted to reporters Monday. "It's like I get these weird urges sometimes, and suddenly I'm tempted to go behind my friends' backs and attend a megachurch service, or censor books in the school library in some way. Even just the thought of organizing a CD-burning turns me on."
+
+Added Franklin, "I feel so confused."</posting>
+
+<email>
+<sender>Kwiper</sender>
+<subject>ERROR</subject>
+<body>If you're reading this, then shit is broken. Panic.</body>
+<attachments>
+</attachments>
+</email>
+</mission>

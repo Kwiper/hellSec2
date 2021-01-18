@@ -1,0 +1,17 @@
+config playerComp cheat 0.0 $#%#$
+
+connect $#%#$
+
+flash $#%#$
+
+delay 0.1 $#%#$
+
+flash $#%#$
+
+delay 0.1 $#%#$
+
+flash $#%#$
+
+delay 0.1 $#%#$
+
+disconnect $#%#$

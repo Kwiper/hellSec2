@@ -1,0 +1,11 @@
+<ConditionalActions>
+
+<OnConnect target="unityCore1">
+<RunFunction FunctionName="playCustomSongImmediatley:Music/Neo_Tokyo.ogg" DelayHost="cheat" Delay="5.0"/>
+<LaunchHackScript Filepath="HackerScripts/ConnectHack.txt" DelayHost="cheat" Delay="0.0" SourceComp="cheat" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+<StartScreenBleedEffect AlertTitle="STOP UNITY" CompleteAction="Actions/RestartActions.xml" TotalDurationSeconds="255.0" DelayHost="cheat" Delay="5.0">Hack into network
+Delete /sys folders
+GO! GO! GO!</StartScreenBleedEffect>
+</OnConnect>
+
+</ConditionalActions>

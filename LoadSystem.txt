@@ -1,0 +1,28 @@
+Create new mission loading system for DHS hub
+
+Use DoesNotHaveFlags and HasFlags condactions
+
+
+Hub01: DoesNotHaveFlags (01)
+
+Hub02: DoesNotHaveFlags (02)
+
+Hub03: DoesNotHaveFlags: (03) (Gives SQL1, SQL2, SQL3 Flags)
+
+Hub04: HasFlags: (SQL1) (Removes SQl1) 
+
+Hub05: HasFlags: (SQL2) (Removes SQL2) (Gives SSL1, SSL2 Flags)
+
+Hub06: HasFlags: (SQL3) (Removes SQL3) (Gives DEC Flag)
+
+Hub07: HasFlags: (SSL1, DEC) (Removes SSL1, DEC) (Gives EOS Flag)
+
+Hub08: HasFlags: (SSL2) (Removes SSl2) (Gives Torrent Flag)
+
+Hub09: HasFlags: (Torrent, EOS) (Removes Torrent, EOS) 
+
+Hub10: Uploaded after credits
+
+Hub11: Uploaded after credits
+
+Hub12: Uploaded after credits

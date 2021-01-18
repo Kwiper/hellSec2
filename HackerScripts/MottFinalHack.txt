@@ -1,0 +1,18 @@
+config playerComp mott 0.0 $#%#$
+
+clearTerminal $#%#$
+
+delay 5 $#%#$
+
+write WHY $#%#$
+delay 0.1 $#%#$
+write . $#%#$
+delay 0.1 $#%#$
+write . $#%#$
+delay 0.1 $#%#$
+write . $#%#$
+delay 0.5 $#%#$
+
+showRam $#%#$
+showDisplay $#%#$
+showNetMap $#%#$

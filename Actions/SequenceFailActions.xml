@@ -1,0 +1,40 @@
+<ConditionalActions>
+
+<Instantly>
+
+<LoadMission MissionName="Missions/Prison/TransitionMission.xml"/>
+<CrashComputer TargetComp="prisonBreak" CrashSource="cheat" DelayHost="cheat" Delay="0.0"/>
+<SwitchToTheme ThemePathOrName="HacknetMint" FlickerInDuration="1.0" DelayHost="cheat" Delay="0.0"/>
+<CancelScreenBleedEffect DelayHost="cheat" Delay="0.0"/>
+<KillExe DelayHost="cheat" Delay="0.0" ExeName="*"/>
+<LaunchHackScript Filepath="HackerScripts/BeepHack.txt" DelayHost="cheat" Delay="0.0" SourceComp="cheat" TargetComp="playerComp" RequireLogsOnSource="false"/>
+<RunFunction FunctionName="changeSongDLC" FunctionValue="9"/>
+<HideNode DelayHost="cheat" Delay="0.0" TargetComp="prisonBreak"/>
+<AddConditionalActions Filepath="Actions/Z3r0JoinActions.xml" DelayHost="cheat" Delay="93.0"/>
+<RunFunction FunctionName="removeFlags:Sequencer"/>
+
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="4.0">Did @#PLAYERNAME# just...</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="6.0">Fail?</AddIRCMessage>
+<AddIRCMessage Author="Hel" TargetComp="hellDHS" Delay="9.0">I think so...</AddIRCMessage>
+<AddIRCMessage Author="Cardinal" TargetComp="hellDHS" Delay="12.0">@#PLAYERNAME# What was that?</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="15.0">I'm not mad.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="18.0">Just disappointed.</AddIRCMessage>
+<AddIRCMessage Author="Hel" TargetComp="hellDHS" Delay="21.0">What do we do now?</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="24.0">Someone else will have to do it.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="27.0">@H3l1x you know what to do.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="30.0">Roger that.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="35.0">And now, @#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="38.0">It's time for your punishment.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="41.0">The punishment of just sitting there</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="44.0">While H3l1x fixes your mistakes.</AddIRCMessage>
+<AddIRCMessage Author="Hel" TargetComp="hellDHS" Delay="49.0">Now you know how it feels like to be us.</AddIRCMessage>
+<AddIRCMessage Author="Cardinal" TargetComp="hellDHS" Delay="52.0">What it feels like waiting for someone to get the job done.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="60.0">Are you feeling punished yet?</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="70.0">I hope you'll take this time to reflect on your mistakes.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="80.0">Are you feeling it now, #PLAYERNAME#?</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="90.0">And done.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="93.0">That's how you do it, #PLAYERNAME#. Learn from H3l1x.</AddIRCMessage>
+
+</Instantly>
+
+</ConditionalActions>

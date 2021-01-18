@@ -1,0 +1,14 @@
+<ConditionalActions>
+
+<Instantly>
+<RunFunction FunctionName="playCustomSong:Music/In_The_Face_Of_Evil.ogg"/>
+<LoadMission MissionName="Missions/Intro/WelcomeMission.xml"/>
+<RunFunction FunctionName="setFaction:hellsec"/>
+<RunFunction FunctionName="setHubServer:hellHub"/>
+<RunFunction FunctionName="setAssetServer:hellDrop"/>
+
+<AddConditionalActions Filepath="Actions/JoinActions.xml" DelayHost="cheat" Delay="0.0"/>
+
+</Instantly>
+
+</ConditionalActions>

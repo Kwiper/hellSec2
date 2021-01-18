@@ -1,0 +1,29 @@
+<ConditionalActions>
+
+<Instantly>
+<AddAsset FileName="Offline_Sequencer.exe" FileContents="#EXT_SEQUENCER_EXE#" TargetComp="playerComp" TargetFolderpath="bin"/>
+<RunFunction FunctionName="changeSongDLC" FunctionValue="9"/>
+
+<LoadMission MissionName="Missions/Prison/PrisonBreakMission.xml"/>
+
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="3.0">@channel Everybody come back.</AddIRCMessage>
+<AddIRCMessage Author="Hel" TargetComp="hellDHS" Delay="6.0">Got it?</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="9.0">Thanks to #PLAYERNAME#.</AddIRCMessage>
+<AddIRCMessage Author="Cardinal" TargetComp="hellDHS" Delay="12.0">What is it?</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="15.0">A sequencer of sorts.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="18.0">And that'll let us access the prison's offline system?</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="21.0">I believe so.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="24.0">@#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="27.0">Will you do the honours?</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="30.0">I've uploaded it to your computer.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="33.0">All you've gotta do is run it, and you'll be connected.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="36.0">How will he get Z3r0 out?</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="39.0">You should be able to disable Z3r0's security to his cell.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="42.0">Deleting something should do it.</AddIRCMessage>
+<AddIRCMessage Author="Cardinal" TargetComp="hellDHS" Delay="45.0">That sounds like... really bad security for a max-security prison.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="48.0">It's offline, so people can be carefree. Anyways.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="51.0">Remember that Z3r0 isn't the only one in super secret lockup. You'll have to navigate some files.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="54.0">Good luck.</AddIRCMessage>
+</Instantly>
+
+</ConditionalActions>

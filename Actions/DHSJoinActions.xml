@@ -1,0 +1,51 @@
+<ConditionalActions>
+
+<OnConnect target="hellDHS" needsMissionComplete="false">
+<RunFunction FunctionName="setHubServer:hellDHS"/>
+<ChangeAlertIcon Target="hellDHS" Type="irchub" DelayHost="cheat" Delay="1.0"/>
+<LoadMission MissionName="Missions/Unity/UnityInvest.xml"/>
+<AddConditionalActions Filepath="Actions/UnityInvestH3l1xActions.xml" DelayHost="cheat" Delay="0.0"/>
+
+<AddIRCMessage Author="Channel" TargetComp="hellDHS" Delay="-100">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="hellDHS" Delay="-90">User 'Quartz' has joined the server.</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="hellDHS" Delay="-60">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="hellDHS" Delay="-59">User 'H3l1x' has joined the server.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="-55">Heyo</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="-50">Welcome back to the land of the living.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="-40">Dang, this is pretty sweet.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="-30">How's #PLAYERNAME# doing?</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="-20">#PLAYERNAME# is fine. I just asked them to do a little investigation.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="-10">Ah, gotcha.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="-5">Once he gets back, we'll discuss what we're gonna do about the person who attacked us.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="-1">Alright.</AddIRCMessage>
+
+<AddIRCMessage Author="Channel" TargetComp="hellDHS" Delay="5.0">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="hellDHS" Delay="6.0">User '#PLAYERNAME#' has joined the server.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="9.0">Hey.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="12.0">Good, looks like you've got no issues connecting.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="15.0">So, did you find anything?</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="18.0">#PLAYERNAME#'s investigation led to someone, or something called Unity.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="21.0">If possible, I'd like to investigate them further.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="24.0">Obviously.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="28.0">So what's the plan?</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="31.0">After taking a look at the Unity network a bit more, I've found a couple more leads.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="34.0">I want both of you to investigate them.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="38.0">If you find anything about Unity, like who they are, what they're doing</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="41.0">Please, upload them to the drop server.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="45.0">Didn't the drop server get destroyed along with the rest of hellSec?</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="50.0">Yes, but I managed to recover it. Everything's still on there.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="53.0">Just under a different IP now.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="56.0">Alright.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="57.0">!ATTACHMENT:link#%#hellSec File Drop Server#%#162.23.31.236</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="60.0">You guys know what you're doing?</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="62.0">Yep.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="65.0">Good.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="68.0">@H3l1x You will start from this node</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="70.0">!ATTACHMENT:link#%#Unity Proxy Node D-238#%#225.13.263.25</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="73.0">Roger that</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="77.0">@#PLAYERNAME# You will investigate this node</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="80.0">!ATTACHMENT:link#%#Unity Relay Node#%#224.151.26.193</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="84.0">Good luck, both of you.</AddIRCMessage>
+</OnConnect>
+
+</ConditionalActions>

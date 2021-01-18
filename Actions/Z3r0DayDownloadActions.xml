@@ -1,0 +1,7 @@
+<ConditionalActions>
+
+<Instantly>
+<ChangeAlertIcon Target="jmail" Type="mail" DelayHost="cheat" Delay="0.0"/>
+</Instantly>
+
+</ConditionalActions>

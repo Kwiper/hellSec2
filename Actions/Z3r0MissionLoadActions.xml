@@ -1,0 +1,11 @@
+<ConditionalActions>
+
+<Instantly>
+<AddMissionToHubServer MissionFilepath="Missions/UnityHub/UnityPlayer.xml" TargetComp="hellDHS"/>
+<AddMissionToHubServer MissionFilepath="Missions/UnityHub/UnityQuartz.xml" TargetComp="hellDHS" AssignmentTag="Quartz"/>
+<AddMissionToHubServer MissionFilepath="Missions/UnityHub/UnityH3l1x.xml" TargetComp="hellDHS" AssignmentTag="H3l1x"/>
+<AddMissionToHubServer MissionFilepath="Missions/UnityHub/UnityCardinal.xml" TargetComp="hellDHS" AssignmentTag="Cardinal"/>
+<AddMissionToHubServer MissionFilepath="Missions/UnityHub/UnityHel.xml" TargetComp="hellDHS" AssignmentTag="Hel"/>
+</Instantly>
+
+</ConditionalActions>

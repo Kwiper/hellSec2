@@ -1,0 +1,7 @@
+<ConditionalActions>
+
+<HasFlags requiredFlags="12">
+<AddMissionToHubServer MissionFilepath="Missions/HubMissions/hub12.xml" TargetComp="hellDHS"/>
+</HasFlags>
+
+</ConditionalActions>

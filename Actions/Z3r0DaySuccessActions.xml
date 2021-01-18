@@ -1,0 +1,8 @@
+<ConditionalActions>
+
+<Instantly>
+<CancelScreenBleedEffect DelayHost="cheat" Delay="0.0"/>
+<RunFunction FunctionName="playCustomSong:Music/Chemical_Burns.ogg"/>
+</Instantly>
+
+</ConditionalActions>

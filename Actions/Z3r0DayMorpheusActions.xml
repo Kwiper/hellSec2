@@ -1,0 +1,14 @@
+<ConditionalActions>
+
+<Instantly>
+<RunFunction FunctionName="playCustomSongImmediatley:Music/Silent.ogg"/>
+<RunFunction FunctionName="playCustomSong:Music/Gotta_Dash.ogg" DelayHost="cheat" Delay="2.0"/>
+<LaunchHackScript Filepath="HackerScripts/MorpheusHack.txt" 
+                  DelayHost="cheat" Delay="0.0" SourceComp="moprheus2" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+<StartScreenBleedEffect AlertTitle="SAVE YOURSELF" CompleteAction="Actions/Z3r0DayFailActions.xml" TotalDurationSeconds="139.4" DelayHost="cheat" Delay="27.6">LOOK AT YOUR LOGS
+CONNECT TO MORPHEUS
+DELETE SYS FOLDER</StartScreenBleedEffect>
+
+</Instantly>
+
+</ConditionalActions>

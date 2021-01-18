@@ -1,0 +1,68 @@
+<ConditionalActions>
+
+<OnConnect target="hellIRC" needsMissionComplete="false">
+<RunFunction FunctionName="changeSongDLC" FunctionValue="7"/>
+<RunFunction FunctionName="addFlags:CSEC_Member"/>
+
+<LaunchHackScript Filepath="HackerScripts/ETASHack.txt" 
+                  DelayHost="cheat" 
+                  Delay="30.0" SourceComp="unityETAS1" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+
+<AddConditionalActions Filepath="Actions/ETASAftermathActions.xml" DelayHost="cheat" Delay="100"/>
+<AddConditionalActions Filepath="Actions/ETASAftermathConnectActions.xml" DelayHost="cheat" Delay="0.0"/>
+
+<StartScreenBleedEffect AlertTitle="01101000" CompleteAction="Actions/BlankActions.xml" TotalDurationSeconds="9" DelayHost="cheat" Delay="41">01100001
+01100011
+01101011</StartScreenBleedEffect>
+
+<HideNode DelayHost="cheat" Delay="51" TargetComp="hellIRC" />
+<HideNode DelayHost="cheat" Delay="51" TargetComp="hellHub" />
+<HideNode DelayHost="cheat" Delay="51" TargetComp="hellDrop" />
+<CrashComputer TargetComp="hellIRC" CrashSource="cheat" DelayHost="cheat" Delay="52" />
+<CrashComputer TargetComp="hellHub" CrashSource="cheat" DelayHost="cheat" Delay="52" />
+<CrashComputer TargetComp="hellDrop" CrashSource="cheat" DelayHost="cheat" Delay="52" />
+<ChangeIP DelayHost="cheat" Delay="53" TargetComp="hellHub" NewIP="162.23.31.234" />
+<ChangeIP DelayHost="cheat" Delay="53" TargetComp="hellIRC" NewIP="162.23.31.235" />
+<ChangeIP DelayHost="cheat" Delay="53" TargetComp="hellDrop" NewIP="162.23.31.236" />
+
+<ChangeNetmapSortMethod DelayHost="hellIRC" Delay="41" Method="grid" />
+<ChangeNetmapSortMethod DelayHost="hellIRC" Delay="42" Method="seqgrid" />
+<ChangeNetmapSortMethod DelayHost="hellIRC" Delay="43" Method="CHAOS" />
+<ChangeNetmapSortMethod DelayHost="hellIRC" Delay="43.5" Method="scatter" />
+<ChangeNetmapSortMethod DelayHost="hellIRC" Delay="44" Method="grid" />
+<ChangeNetmapSortMethod DelayHost="hellIRC" Delay="44.5" Method="seqgrid" />
+<ChangeNetmapSortMethod DelayHost="hellIRC" Delay="44.7" Method="CHAOS" />
+<ChangeNetmapSortMethod DelayHost="hellIRC" Delay="44.9" Method="scatter" />
+<ChangeNetmapSortMethod DelayHost="hellIRC" Delay="45" Method="grid" />
+<ChangeNetmapSortMethod DelayHost="hellIRC" Delay="45.1" Method="seqgrid" />
+<ChangeNetmapSortMethod DelayHost="hellIRC" Delay="45.2" Method="CHAOS" />
+<ChangeNetmapSortMethod DelayHost="hellIRC" Delay="45.3" Method="scatter" />
+<ChangeNetmapSortMethod DelayHost="hellIRC" Delay="45.4" Method="grid" />
+<ChangeNetmapSortMethod DelayHost="hellIRC" Delay="45.5" Method="seqgrid" />
+<ChangeNetmapSortMethod DelayHost="hellIRC" Delay="45.6" Method="CHAOS" />
+<ChangeNetmapSortMethod DelayHost="hellIRC" Delay="45.7" Method="scatter" />
+<ChangeNetmapSortMethod DelayHost="hellIRC" Delay="45.8" Method="grid" />
+<ChangeNetmapSortMethod DelayHost="hellIRC" Delay="45.9" Method="seqgrid" />
+<ChangeNetmapSortMethod DelayHost="hellIRC" Delay="46.0" Method="CHAOS" />
+<ChangeNetmapSortMethod DelayHost="hellIRC" Delay="46.1" Method="scatter" />
+
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="3.0">Alright, looks like you guys are here.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="6.0">What's this about?</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="9.0">Right.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="12.0">Well, as you know, I've been working on a little side project</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="15.0">#PLAYERNAME# might not have known.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="18.0">So silent that we don't know if he checks this chat.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="21.0">In any case.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="24.0">I'm just about done.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="27.0">Woo!</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="30.0">Soon we won't have to rely on two seperate nodes for IRC and mission hubs</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="35.0">What the hell?</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="38.0">#PLAYERNAME#?</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="41.0">What's going on?</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="44.0">I've got no idea.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="47.0">H3l1x, you too?</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="50.0">Shit!</AddIRCMessage>
+
+</OnConnect>
+
+</ConditionalActions>

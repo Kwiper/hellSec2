@@ -1,0 +1,97 @@
+config playerComp morpheus2 0.0 $#%#$
+
+connect $#%#$
+hideRam $#%#$
+clearTerminal $#%#$
+
+delay 5 $#%#$
+
+writel Hey. $#%#$
+delay 1 $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+delay 2 $#%#$
+
+writel Remember $#%#$
+delay 0.2 $#%#$
+write me? $#%#$
+delay 1 $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+delay 2 $#%#$
+
+writel So $#%#$
+delay 0.1 $#%#$
+write I $#%#$
+delay 0.1 $#%#$
+write see $#%#$
+delay 0.1 $#%#$
+write you're $#%#$
+delay 0.1 $#%#$
+write still $#%#$
+delay 0.1 $#%#$
+write working $#%#$
+delay 0.1 $#%#$
+write with $#%#$
+delay 0.1 $#%#$
+write Z3r0. $#%#$
+delay 1 $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+delay 2 $#%#$
+
+writel That's ok. $#%#$
+delay 2 $#%#$
+write But $#%#$
+delay 0.1 $#%#$
+write I'm $#%#$
+delay 0.1 $#%#$
+write afraid $#%#$
+delay 0.1 $#%#$
+write this $#%#$
+delay 0.1 $#%#$
+write is $#%#$
+delay 0.1 $#%#$
+write the $#%#$
+delay 0.1 $#%#$
+write end $#%#$
+delay 0.1 $#%#$
+write of $#%#$
+delay 0.1 $#%#$
+write the $#%#$
+delay 0.1 $#%#$
+write line. $#%#$
+delay 1 $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+delay 2 $#%#$
+
+writel It's $#%#$
+delay 0.1 $#%#$
+write time $#%#$
+delay 0.1 $#%#$
+write to $#%#$
+delay 0.1 $#%#$
+write say $#%#$
+delay 0.1 $#%#$
+write goodbye. $#%#$
+delay 1 $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+delay 2 $#%#$
+
+writel Because $#%#$
+delay 2 $#%#$
+write I've $#%#$
+delay 0.1 $#%#$
+write gotta $#%#$
+delay 0.1 $#%#$
+write dash. $#%#$
+
+showRam $#%#$
+disconnect $#%#$

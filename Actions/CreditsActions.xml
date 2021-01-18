@@ -1,0 +1,15 @@
+<ConditionalActions>
+
+<Instantly>
+<RunFunction FunctionName="playCustomSong:Music/Get_Out.ogg"/>
+<RunFunction FunctionName="addFlags:10"/>
+<RunFunction FunctionName="addFlags:11"/>
+<RunFunction FunctionName="addFlags:12"/>
+
+<AddConditionalActions Filepath="DHSLoad/Load10.xml" DelayHost="cheat" Delay="10.0"/>
+<AddConditionalActions Filepath="DHSLoad/Load11.xml" DelayHost="cheat" Delay="10.0"/>
+<AddConditionalActions Filepath="DHSLoad/Load12.xml" DelayHost="cheat" Delay="10.0"/>
+
+</Instantly>
+
+</ConditionalActions>

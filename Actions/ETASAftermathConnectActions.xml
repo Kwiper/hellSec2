@@ -1,0 +1,7 @@
+<ConditionalActions>
+
+<OnConnect target="unityETAS1" needsMissionComplete="false">
+<RunFunction FunctionName="playCustomSong:Music/Memory_Reset.ogg"/>
+</OnConnect>
+
+</ConditionalActions>

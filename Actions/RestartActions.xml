@@ -1,0 +1,14 @@
+<ConditionalActions>
+
+<Instantly>
+<CancelScreenBleedEffect DelayHost="cheat" Delay="0.0"/>
+<KillExe DelayHost="cheat" Delay="0.0" ExeName="*"/>
+<RunFunction FunctionName="playCustomSongImmediatley:Music/Silent.ogg"/>
+<CrashComputer TargetComp="unityCore2" CrashSource="cheat" DelayHost="cheat" Delay="0.0" />
+<CrashComputer TargetComp="unityCore3" CrashSource="cheat" DelayHost="cheat" Delay="0.0" />
+<AddConditionalActions Filepath="Actions/FinalBossActions.xml" DelayHost="cheat" Delay="0.0"/>
+
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="1.0">@#PLAYERNAME# It's not too late! Go again!</AddIRCMessage>
+</Instantly>
+
+</ConditionalActions>

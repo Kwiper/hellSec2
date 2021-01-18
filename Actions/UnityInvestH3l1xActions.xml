@@ -1,0 +1,9 @@
+<ConditionalActions>
+
+<OnConnect target="unityH3l1x" needsMissionComplete="false">
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="3.0">@#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="6.0">Get off my node</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="9.0">Investigate your own</AddIRCMessage>
+</OnConnect>
+
+</ConditionalActions>

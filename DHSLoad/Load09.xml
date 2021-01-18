@@ -1,0 +1,7 @@
+<ConditionalActions>
+
+<HasFlags requiredFlags="Torrent,EOS">
+<AddMissionToHubServer MissionFilepath="Missions/HubMissions/hub09.xml" TargetComp="hellDHS"/>
+</HasFlags>
+
+</ConditionalActions>

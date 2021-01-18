@@ -1,0 +1,288 @@
+<CustomFaction name="hellSec" id="hellsec" playerVal="0">
+  
+<Action ValueRequired="10">
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="3.0">I'm bored.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="6.0">We just got back to doing missions, though.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="9.0">Yeah, I've done a couple but they're just</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="12.0">Child's play</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="15.0">Hey, I didn't make the tasks, they were clients.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="18.0">I know, I just</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="21.0">I just want something to do in between missions you know?</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="24.0">Something low-effort but still addicting</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="27.0">Like some kind of</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="30.0">Point...</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="31.0">Clicker.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="34.0">Sure.</AddIRCMessage>
+</Action>
+
+<Action ValueRequired="20">
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="3.0">Hey @Quartz</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="6.0">Hmm?</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="9.0">Why do we still have this mission hub thing?</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="12.0">Like, it's got all these random names</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="15.0">You know, Bufflenut said the same thing last year.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="18.0">Did he, now?</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="20.0">Mhmm.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="23.0">It's also a bit</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="25.0">Inconvenient</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="28.0">Like, you have to switch between servers to get to IRC chat and mission hub.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="31.0">I agree.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="34.0">I'm working on fixing that.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="37.0">Oh cool.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="40.0">Indeedydo, it is cool.</AddIRCMessage>
+</Action>
+
+<Action ValueRequired="30">
+<RunFunction FunctionName="playCustomSong:Music/Rush.ogg"/>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="3.0">Shit</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="6.0">What?</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="9.0">Things broke.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="12.0">What things?</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="15.0">Things.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="18.0">Does it have something to do with your little side project?</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="21.0">Maybe.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="24.0">Ooh, exciting.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="27.0">Sometimes I hate this job.</AddIRCMessage>
+</Action>
+
+<Action ValueRequired="40">
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="3.0">I miss Bufflenut.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="6.0">We all do.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="9.0">We used to have the greatest conversations.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="11.0">Some nice banter.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="14.0">But hey, I got you two!</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="17.0">No you don't.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="20.0">No, I don't.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="23.0">#PLAYERNAME# never speaks.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="25.0">You're you.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="28.0">What's that supposed to mean?</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="31.0">We need more members.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="34.0">I'm working on that, too.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="37.0">Oh, nice.</AddIRCMessage>
+</Action>
+
+<Action ValueRequired="50">
+<LoadMission MissionName="Missions/Unity/UnityETAS.xml"/>
+<AddConditionalActions Filepath="Actions/ETASActions.xml" DelayHost="cheat" Delay="0.0"/>
+
+</Action>
+
+<Action ValueRequired="60">
+
+<AddConditionalActions Filepath="DHSLoad/Load04.xml" DelayHost="cheat" Delay="0.1"/>
+<AddConditionalActions Filepath="DHSLoad/Load05.xml" DelayHost="cheat" Delay="0.1"/>
+<AddConditionalActions Filepath="DHSLoad/Load06.xml" DelayHost="cheat" Delay="0.1"/>
+<AddConditionalActions Filepath="DHSLoad/Load07.xml" DelayHost="cheat" Delay="0.1"/>
+<AddConditionalActions Filepath="DHSLoad/Load08.xml" DelayHost="cheat" Delay="0.1"/>
+<AddConditionalActions Filepath="DHSLoad/Load09.xml" DelayHost="cheat" Delay="0.1"/>
+
+<AddAsset FileName="NetmapOrganizer.exe" FileContents="#NETMAP_ORGANIZER_EXE#" TargetComp="hellDrop" TargetFolderpath="bin"/>
+<AddIRCMessage Author="Hel" TargetComp="hellDHS" Delay="3.0">@channel</AddIRCMessage>
+<AddIRCMessage Author="Hel" TargetComp="hellDHS" Delay="6.0">Got something interesting</AddIRCMessage>
+<AddIRCMessage Author="Hel" TargetComp="hellDHS" Delay="9.0">Check the drop server.</AddIRCMessage>
+<AddIRCMessage Author="Cardinal" TargetComp="hellDHS" Delay="12.0">Wait, this is the thing I found</AddIRCMessage>
+<AddIRCMessage Author="Hel" TargetComp="hellDHS" Delay="15.0">Yeah, so?</AddIRCMessage>
+<AddIRCMessage Author="Cardinal" TargetComp="hellDHS" Delay="18.0">I should have uploaded it.</AddIRCMessage>
+<AddIRCMessage Author="Hel" TargetComp="hellDHS" Delay="21.0">Well, sweetie, you didn't. Deal with it.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="24.0">It's about damn time. Needed this.</AddIRCMessage>
+<AddIRCMessage Author="Cardinal" TargetComp="hellDHS" Delay="27.0">What did I do to deserve such sass?</AddIRCMessage>
+
+</Action>
+
+<Action ValueRequired="70">
+<RunFunction FunctionName="playCustomSong:Music/Chansu.ogg"/>
+
+<AddConditionalActions Filepath="DHSLoad/Load04.xml" DelayHost="cheat" Delay="0.1"/>
+<AddConditionalActions Filepath="DHSLoad/Load05.xml" DelayHost="cheat" Delay="0.1"/>
+<AddConditionalActions Filepath="DHSLoad/Load06.xml" DelayHost="cheat" Delay="0.1"/>
+<AddConditionalActions Filepath="DHSLoad/Load07.xml" DelayHost="cheat" Delay="0.1"/>
+<AddConditionalActions Filepath="DHSLoad/Load08.xml" DelayHost="cheat" Delay="0.1"/>
+<AddConditionalActions Filepath="DHSLoad/Load09.xml" DelayHost="cheat" Delay="0.1"/>
+
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="3.0">God, I'm so bored.</AddIRCMessage>
+<AddIRCMessage Author="Cardinal" TargetComp="hellDHS" Delay="6.0">I've got the perfect thing for you, buddy.</AddIRCMessage>
+<AddIRCMessage Author="Cardinal" TargetComp="hellDHS" Delay="9.0">!ATTACHMENT:link#%#Point Clicker#%#182.151.215.12</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="12.0">Oh my god</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="15.0">This is what I was looking for.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="18.0">This is the kind of point...</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="20.0">clicker</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="22.0">I needed.</AddIRCMessage>
+<AddIRCMessage Author="Cardinal" TargetComp="hellDHS" Delay="25.0">Glad you're happy.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="28.0">@Hel I'm stealing your boyfriend.</AddIRCMessage>
+<AddIRCMessage Author="Hel" TargetComp="hellDHS" Delay="32.0">...What?</AddIRCMessage>
+</Action>
+
+<Action ValueRequired="80">
+
+<AddConditionalActions Filepath="DHSLoad/Load04.xml" DelayHost="cheat" Delay="0.1"/>
+<AddConditionalActions Filepath="DHSLoad/Load05.xml" DelayHost="cheat" Delay="0.1"/>
+<AddConditionalActions Filepath="DHSLoad/Load06.xml" DelayHost="cheat" Delay="0.1"/>
+<AddConditionalActions Filepath="DHSLoad/Load07.xml" DelayHost="cheat" Delay="0.1"/>
+<AddConditionalActions Filepath="DHSLoad/Load08.xml" DelayHost="cheat" Delay="0.1"/>
+<AddConditionalActions Filepath="DHSLoad/Load09.xml" DelayHost="cheat" Delay="0.1"/>
+
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="3.0">God, what is with this mission hub</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="6.0">It's so...</AddIRCMessage>
+<AddIRCMessage Author="Cardinal" TargetComp="hellDHS" Delay="9.0">Buggy?</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="12.0">Yeah.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="15.0">Missions keep getting posted multiple times</AddIRCMessage>
+<AddIRCMessage Author="Hel" TargetComp="hellDHS" Delay="18.0">Well</AddIRCMessage>
+<AddIRCMessage Author="Hel" TargetComp="hellDHS" Delay="21.0">It's almost like whoever designed this thing</AddIRCMessage>
+<AddIRCMessage Author="Hel" TargetComp="hellDHS" Delay="24.0">Left some bugs</AddIRCMessage>
+<AddIRCMessage Author="Hel" TargetComp="hellDHS" Delay="27.0">Like a bug that would erase all missions when it shouldn't.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="30.0">Hmmmmmmmm</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="33.0">@Quartz</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="35.0">No.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="38.0">Welp.</AddIRCMessage>
+</Action>
+
+<Action ValueRequired="90">
+<RunFunction FunctionName="changeSongDLC" FunctionValue="9"/>
+<LoadMission MissionName="Missions/Prison/PrisonMission.xml"/>
+<AddConditionalActions Filepath="Actions/PrisonConnectActions.xml" DelayHost="cheat" Delay="0.0"/>
+
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="3.0">@channel</AddIRCMessage>
+<AddIRCMessage Author="Hel" TargetComp="hellDHS" Delay="6.0">Yo.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="9.0">What's up?</AddIRCMessage>
+<AddIRCMessage Author="Cardinal" TargetComp="hellDHS" Delay="11.0">I'm here.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="15.0">What about #PLAYERNAME#?</AddIRCMessage>
+<AddIRCMessage Author="Hel" TargetComp="hellDHS" Delay="18.0">Always assume the silent one is lurking.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="21.0">Right, to business then.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="24.0">While you lot were off doing your missions, I looked into Unity a bit more.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="27.0">Yeah, we know this part already</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="30.0">Get to the good bit</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="35.0">Cardinal, Hel, you may not know this, but last year we had to deal with... our old boss.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="39.0">Z3r0.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="42.0">Don't tell me...</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="44.0">Yep.</AddIRCMessage>
+<AddIRCMessage Author="Cardinal" TargetComp="hellDHS" Delay="47.0">Mind filling us in?</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="50.0">You wouldn't have heard about this, it was covered up pretty well.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="53.0">Basically, Z3r0 was working on something with the government that would allow them to surveil every computer in the world.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="56.0">Z3r0 got a bit power-hungry and made the project all about being able to take over any system.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="59.0">World domination, essentially.</AddIRCMessage>
+<AddIRCMessage Author="Hel" TargetComp="hellDHS" Delay="63.0">Wow, how cliche movie villain can you get?</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="65.0">Don't steal my joke.</AddIRCMessage>
+<AddIRCMessage Author="Cardinal" TargetComp="hellDHS" Delay="67.0">How is that any different from what Unity is doing?</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="70.0">Unity isn't so much ruling as it is unifying the world. Still the worst way to go about it.</AddIRCMessage>
+<AddIRCMessage Author="Hel" TargetComp="hellDHS" Delay="73.0">And I'm guessing this Z3r0 played a part in Unity?</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="76.0">Oh, no, he was trying to stop it, with there being a conflict of interest and whatnot.</AddIRCMessage>
+<AddIRCMessage Author="Cardinal" TargetComp="hellDHS" Delay="79.0">And we need his help now?</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="81.0">As much as I dislike him</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="83.0">Yes.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="85.0">Fuck</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="87.0">It's the only way.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="90.0">One slight problem: He's in prison.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="92.0">Yes.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="94.0">He can't exactly help us from there.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="96.0">That is correct.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="98.0">So how's he supposed to help us?</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="100.0">Think back to when I brought us back together.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="103.0">Ah.</AddIRCMessage>
+<AddIRCMessage Author="Hel" TargetComp="hellDHS" Delay="105.0">What?</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="hellDHS" Delay="108.0">Jailbreak.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="110.0">That's right.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="112.0">Did #PLAYERNAME# just speak?</AddIRCMessage>
+<AddIRCMessage Author="Cardinal" TargetComp="hellDHS" Delay="114.0">I assume you've already got everything prepared?</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="117.0">Not quite. That's where you guys come in.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="119.0">We're totally glossing over the fact that #PLAYERNAME# spoke, that's cool.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="121.0">Your mission is to infiltrate the federal prison's system.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="124.0">From what I gather, Z3r0's information is stored in a super secret offline node.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="127.0">Find a way to access the offline node.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="130.0">Upload to the drop server.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="133.0">Everybody got that?</AddIRCMessage>
+<AddIRCMessage Author="Hel" TargetComp="hellDHS" Delay="135.0">Don't need to ask us every time, just link us to the damn node.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="138.0">Yes, yes.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="141.0">!ATTACHMENT:link#%#Federal Prison Website#%#215.29.235.121</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="145.0">Good luck.</AddIRCMessage>
+</Action>
+
+<Action ValueRequired="100">
+
+<RunFunction FunctionName="changeSongDLC" FunctionValue="7"/>
+
+<LoadMission MissionName="Missions/UnityFinal/UnityFinal.xml"/>
+
+<AddConditionalActions Filepath="Actions/UnityHackActions.xml" DelayHost="cheat" Delay="59.0"/>
+
+<AddConditionalActions Filepath="Actions/FinalBossActions.xml" DelayHost="cheat" Delay="86.0"/>
+
+<AddAsset FileName="RTSPCrack.exe" FileContents="#RTSP_EXE#" TargetComp="hellDrop" TargetFolderpath="bin" />
+
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="3.0">@channel</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="7.0">The time has come to take care of Unity once and for all.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="13.0">Thanks to the intel everyone gathered, we now know exactly how we're going to take them down.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="17.0">How are we gonna do that?</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="23.0">After putting together all the information, I found out that Unity operates on a network from a core of three nodes.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="27.0">If we can delete everything in the system files of those servers</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="30.0">It's game over for Unity.</AddIRCMessage>
+<AddIRCMessage Author="Hel" TargetComp="hellDHS" Delay="34.0">That just seems so simple.</AddIRCMessage>
+<AddIRCMessage Author="Cardinal" TargetComp="hellDHS" Delay="38.0">That can't be it.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="42.0">There is a time limit.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="45.0">If you cannot manage to shut Unity down within that time limit</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="48.0">The network resets.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="52.0">It's a race against time.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="56.0">There are six of us. This should be no problem.</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="hellDHS" Delay="59.0">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="hellDHS" Delay="60.0">Unauthorized connection detected.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="63.0">Dammit, they're here</AddIRCMessage>
+<AddIRCMessage Author="Anonymous" TargetComp="hellDHS" Delay="68.0">Goodbye.</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="hellDHS" Delay="71.0">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="hellDHS" Delay="72.0">User 'H3l1x' has been forcibly removed from the server.</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="hellDHS" Delay="73.0">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="hellDHS" Delay="74.0">User 'Hel' has been forcibly removed from the server.</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="hellDHS" Delay="75.0">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="hellDHS" Delay="76.0">User 'Cardinal' has been forcibly removed from the server.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="78.0">This isn't good.</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="hellDHS" Delay="80.0">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="hellDHS" Delay="81.0">User 'Quartz' has been forcibly removed from the server.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="84.0">#PLAYERNAME# I'll hold off Unity, you take them down!</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="86.0">!ATTACHMENT:link#%#Harmony#%#251.21.42.126</AddIRCMessage>
+</Action>
+
+<Action ValueRequired="110">
+
+<AddConditionalActions Filepath="DHSLoad/Load10.xml" DelayHost="cheat" Delay="0.1"/>
+<AddConditionalActions Filepath="DHSLoad/Load11.xml" DelayHost="cheat" Delay="0.1"/>
+<AddConditionalActions Filepath="DHSLoad/Load12.xml" DelayHost="cheat" Delay="0.1"/>
+
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="3.0">@Hel @Cardinal What's Core like?</AddIRCMessage>
+<AddIRCMessage Author="Hel" TargetComp="hellDHS" Delay="7.0">Well, it's a group like any other I suppose.</AddIRCMessage>
+<AddIRCMessage Author="Cardinal" TargetComp="hellDHS" Delay="11.0">Yeah, we normally just do requests like any other group.</AddIRCMessage>
+<AddIRCMessage Author="Cardinal" TargetComp="hellDHS" Delay="17.0">Unless some world-threatening, er, threat pops up and the boss wants us to stop it.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="21.0">Like this... ICaRUS?</AddIRCMessage>
+<AddIRCMessage Author="Cardinal" TargetComp="hellDHS" Delay="25.0">Oh, yeah. ICaRUS hadn't really done anything to threaten the world when we stopped him though.</AddIRCMessage>
+<AddIRCMessage Author="Hel" TargetComp="hellDHS" Delay="29.0">He did nearly blow up your computer and made you-know-who finish the job for you.</AddIRCMessage>
+<AddIRCMessage Author="Cardinal" TargetComp="hellDHS" Delay="32.0">Shush</AddIRCMessage>
+</Action>
+
+<Action ValueRequired="120">
+
+<AddConditionalActions Filepath="DHSLoad/Load10.xml" DelayHost="cheat" Delay="0.1"/>
+<AddConditionalActions Filepath="DHSLoad/Load11.xml" DelayHost="cheat" Delay="0.1"/>
+<AddConditionalActions Filepath="DHSLoad/Load12.xml" DelayHost="cheat" Delay="0.1"/>
+
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="3.0">Moop.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="6.0">Meep.</AddIRCMessage>
+<AddIRCMessage Author="Hel" TargetComp="hellDHS" Delay="9.0">Murp.</AddIRCMessage>
+<AddIRCMessage Author="Cardinal" TargetComp="hellDHS" Delay="12.0">Mlop.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellDHS" Delay="15.0">What a riveting conversation.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="hellDHS" Delay="17.0">Morp.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="20.0">OH MY GOD HE SPOKE AGAIN</AddIRCMessage>
+</Action>
+
+<Action ValueRequired="130">
+<RunFunction FunctionName="playCustomSong:Music/Chemical_Burns.ogg"/>
+<LoadMission MissionName="Missions/Z3r0Day/Z3r0Day1.xml" />
+<AddConditionalActions Filepath="Actions/CoreDHSJoinActions.xml" DelayHost="cheat" Delay="0.0"/>
+
+<AddIRCMessage Author="Channel" TargetComp="hellDHS" Delay="3.0">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="hellDHS" Delay="4.0">User 'Hackerman' has joined the server.</AddIRCMessage>
+<AddIRCMessage Author="Hackerman" TargetComp="hellDHS" Delay="8.0">Hey guys, I'm Hackerman. Today I've got something special for you guys.</AddIRCMessage>
+<AddIRCMessage Author="Hackerman" TargetComp="hellDHS" Delay="10.0">!ATTACHMENT:link#%#Hackerman's Den#%#5.22.20.15</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="hellDHS" Delay="12.0">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="hellDHS" Delay="13.0">User 'Hackerman' has left the server.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="16.0">What the hell was that all about?</AddIRCMessage>
+</Action>
+
+
+</CustomFaction>

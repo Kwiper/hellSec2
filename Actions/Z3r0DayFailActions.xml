@@ -1,0 +1,10 @@
+<ConditionalActions>
+
+<Instantly>
+<CancelScreenBleedEffect DelayHost="cheat" Delay="0.0" />
+<RunFunction FunctionName="playCustomSong:Music/Chemical_Burns.ogg"/>
+<CrashComputer TargetComp="playerComp" CrashSource="morpheus2" DelayHost="cheat" Delay="0.0" />
+<LoadMission MissionName="Missions/Z3r0Day/Z3r0DayFail.xml" />
+</Instantly>
+
+</ConditionalActions>

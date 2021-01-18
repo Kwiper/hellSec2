@@ -1,0 +1,12 @@
+<ConditionalActions>
+
+<Instantly>
+<RunFunction FunctionName="playCustomSong:Music/Run_Sally_Run.ogg"/>
+<SwitchToTheme ThemePathOrName="TerminalOnlyBlack" FlickerInDuration="3.0" DelayHost="cheat" Delay="13.0"/>
+<StartScreenBleedEffect AlertTitle="" CompleteAction="Actions/SequenceFailActions.xml" TotalDurationSeconds="105.0" DelayHost="cheat" Delay="15.0">
+</StartScreenBleedEffect>
+<KillExe DelayHost="cheat" Delay="14.0" ExeName="Shell"/>
+
+</Instantly>
+
+</ConditionalActions>

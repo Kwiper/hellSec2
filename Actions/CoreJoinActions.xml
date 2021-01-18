@@ -1,0 +1,53 @@
+<ConditionalActions>
+
+<Instantly>
+<LoadMission MissionName="Missions/Misc/DelayMission.xml" />
+
+<AddConditionalActions Filepath="DHSLoad/Load04.xml" DelayHost="cheat" Delay="95"/>
+<AddConditionalActions Filepath="DHSLoad/Load05.xml" DelayHost="cheat" Delay="95"/>
+<AddConditionalActions Filepath="DHSLoad/Load06.xml" DelayHost="cheat" Delay="95"/>
+<AddConditionalActions Filepath="DHSLoad/Load07.xml" DelayHost="cheat" Delay="95"/>
+<AddConditionalActions Filepath="DHSLoad/Load08.xml" DelayHost="cheat" Delay="95"/>
+<AddConditionalActions Filepath="DHSLoad/Load09.xml" DelayHost="cheat" Delay="95"/>
+
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="1.0">@#PLAYERNAME# @H3l1x</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="3.0">That's good.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="6.0">Got all the info you need?</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="9.0">For now.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="12.0">Looks like Unity's gonna spell trouble.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="15.0">Uniting the world under one collective?</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="19.0">That sounds like the most cliche action movie plot anyone could come up with.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="22.0">This isn't a joke, H3l1x.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="25.0">Unity needs to be stopped.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="28.0">But the three of us can't do that ourselves.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="31.0">This isn't like Project M.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="35.0">I know. That's why I recruited some help.</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="hellDHS" Delay="38.0">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="hellDHS" Delay="39.0">User 'Hel' has joined the server.</AddIRCMessage>
+<AddIRCMessage Author="Hel" TargetComp="hellDHS" Delay="42.0">Helloooo!</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="45.0">Hel, glad you could make it.</AddIRCMessage>
+<AddIRCMessage Author="Hel" TargetComp="hellDHS" Delay="47.0">Thanks!</AddIRCMessage>
+<AddIRCMessage Author="Hel" TargetComp="hellDHS" Delay="50.0">Cardinal should be coming any second now.</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="hellDHS" Delay="52.0">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="hellDHS" Delay="53.0">User 'Cardinal' has joined the server.</AddIRCMessage>
+<AddIRCMessage Author="Cardinal" TargetComp="hellDHS" Delay="55.0">Sup.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="58.0">This is what you meant by help.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="61.0">#PLAYERNAME#, H3l1x, let me introduce you to Hel and Cardinal.</AddIRCMessage>
+<AddIRCMessage Author="Hel" TargetComp="hellDHS" Delay="64.0">We came from a group called Core.</AddIRCMessage>
+<AddIRCMessage Author="Cardinal" TargetComp="hellDHS" Delay="67.0">Nice to meet you.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="70.0">Welcome to hellSec</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellDHS" Delay="73.0">I'm guessing Quartz already told you what's going on?</AddIRCMessage>
+<AddIRCMessage Author="Hel" TargetComp="hellDHS" Delay="75.0">Yep!</AddIRCMessage>
+<AddIRCMessage Author="Cardinal" TargetComp="hellDHS" Delay="78.0">Plot to spell the end of our world as we know it?</AddIRCMessage>
+<AddIRCMessage Author="Cardinal" TargetComp="hellDHS" Delay="81.0">Takes me back.</AddIRCMessage>
+<AddIRCMessage Author="Cardinal" TargetComp="hellDHS" Delay="84.0">You know, if it wasn't for ICaRUS, I wouldn't be datinghalsjdkrhlje</AddIRCMessage>
+<AddIRCMessage Author="Hel" TargetComp="hellDHS" Delay="86.0">You can stop talking now.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="89.0">Anywho</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="92.0">I'm going to keep investigating Unity. See if there are any more leads.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="95.0">This may take a little while, so do a few requests.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellDHS" Delay="98.0">I'll update all of you when I find anything.</AddIRCMessage>
+<AddIRCMessage Author="Hel" TargetComp="hellDHS" Delay="100.0">Solid.</AddIRCMessage>
+
+</Instantly>
+
+</ConditionalActions>

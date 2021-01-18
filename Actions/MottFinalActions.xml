@@ -1,0 +1,15 @@
+<ConditionalActions>
+
+<Instantly>
+<RunFunction FunctionName="removeFlags:Mott"/>
+<SwitchToTheme ThemePathOrName="Themes/Mott/MottGlitch1.xml" FlickerInDuration="0.0" DelayHost="cheat" Delay="0.0"/>
+<SwitchToTheme ThemePathOrName="Themes/Mott/MottGlitch2.xml" FlickerInDuration="0.0" DelayHost="cheat" Delay="0.5"/>
+<LaunchHackScript Filepath="HackerScripts/MottFinalHack.txt" DelayHost="cheat" 
+                                                           Delay="0.0" 
+                                                           SourceComp="mott" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+
+<SwitchToTheme ThemePathOrName="HacknetMint" FlickerInDuration="2.0" DelayHost="cheat" Delay="5.0"/>
+<RunFunction FunctionName="playCustomSong:Music/In_The_Face_Of_Evil.ogg" DelayHost="cheat" Delay="6.0"/>
+</Instantly>
+
+</ConditionalActions>

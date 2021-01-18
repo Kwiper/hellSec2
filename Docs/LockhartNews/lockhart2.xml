@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="lockhart2">
+<goals>
+</goals>
+
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Santa is Real">
+Many children around the world grew up with the story of Santa Claus, a fat man in a red and white outfit with a rosy nose and snowy beard. As adults, we've all dismissed Santa as just a story we tell to children to make them behave.
+But should that really be the case?
+
+People around the world claimed to have spotted an unidentified flying object on Christmas Eve. Those same people woke up the next morning to find coal in their stockings.
+Is this the work of a prankster, or is Santa Claus really making a list and checking it twice? 
+
+We at Lockhart only report what is real, and we can say for sure that this proves Santa Claus is real.</posting>
+
+<email>
+<sender>Kwiper</sender>
+<subject>ERROR</subject>
+<body>If you're reading this, then shit is broken. Panic.</body>
+<attachments>
+</attachments>
+</email>
+</mission>

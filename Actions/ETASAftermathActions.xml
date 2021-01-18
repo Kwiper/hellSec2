@@ -1,0 +1,8 @@
+<ConditionalActions>
+
+<OnConnect target="playerComp" needsMissionComplete="false">
+<LoadMission MissionName="Missions/Unity/UnityETASAftermath.xml" />
+<RunFunction FunctionName="removeFlags:CSEC_Member"/>
+</OnConnect>
+
+</ConditionalActions>

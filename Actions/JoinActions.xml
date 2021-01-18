@@ -1,0 +1,33 @@
+<ConditionalActions>
+
+<OnConnect target="hellIRC">
+
+<SaveGame DelayHost="hellIRC" Delay="0.0"/>
+
+<LoadMission MissionName="Missions/Prison/TransitionMission.xml" />
+
+<AddIRCMessage Author="CONSOLE" TargetComp="hellIRC" Delay="0.0">=======================</AddIRCMessage>
+<AddIRCMessage Author="CONSOLE" TargetComp="hellIRC" Delay="0.0">@#PLAYERNAME# has joined</AddIRCMessage>
+<AddIRCMessage Author="CONSOLE" TargetComp="hellIRC" Delay="0.0">=======================</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="3.0">There you are!</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="6.0">Welcome back, buddy!</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="9.0">Well, looks like the group's all here.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="12.0">Well, without Bufflenut and...</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="15.0">...</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="18.0">Yeah.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="22.0">Let's not dwell on that.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="25.0">hellSec is back!</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="28.0">We've got some work to do.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="31.0">I've put some stuff on the mission listing.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="35.0">Woah, who died and made you leader?</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="38.0">Problem?</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="41.0">Nope, no problem.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="44.0">Quartz for president and all that</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="48.0">Good.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="50.0">Oh, before I forget, #PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="52.0">!ATTACHMENT:account#%#hellSec Contract Hub#%#44.213.37.101#%##PLAYERNAME##%#hellSecFN-2199</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="55.0">Alright, let's get to work.</AddIRCMessage>
+
+</OnConnect>
+
+</ConditionalActions>
