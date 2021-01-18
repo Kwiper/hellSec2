@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="eduPerson" handle="Riker" firstName="Trenton" lastName="Riker" isMale="true" forceHasNeopals="true">
+
+<Birthplace>Sydney</Birthplace>
+
+<Degrees>
+<Degree uni="University of Sydney" gpa="3.4">Bachelor of Cyber Security</Degree>
+<Degree uni="University of Sydney" gpa="3.5">Masters of Software Engineering</Degree>
+</Degrees>
+
+<Medical>
+<Blood>AB</Blood>
+<Height>174</Height>
+<Allergies>NONE</Allergies>
+<Perscription>Alimta x120 monthly :: Pemetrexed disodium for malignant mesothelioma</Perscription>
+
+<Notes>May be entitled to financial compensation</Notes>
+</Medical>
+
+<DOB>16/09/1984 13:15:21</DOB>
+
+</Person>

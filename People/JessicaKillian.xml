@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="medicalPerson" handle="Extremis" firstName="Jessica" lastName="Killian" isMale="false" forceHasNeopals="true">
+
+<Birthplace name="New York"/>
+
+<Degrees>
+<Degree uni="New York University" gpa="3.5">Bachelor of Biochemistry</Degree>
+</Degrees>
+
+<Medical>
+<Blood>O-</Blood>
+<Height>164</Height>
+<Allergies>Penicillin</Allergies>
+<Perscription>Lisinopril x60 monthly :: Angiotensin-converting enzyme inhibitor to regulate blood pressure. Taken twice a day.</Perscription>
+<Notes>Patient suffers from regular high blood pressure spikes. Cause unknown.</Notes>
+</Medical>
+
+<DOB>14/06/1994 11:53:32</DOB>
+
+</Person>
