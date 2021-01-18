@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="vertigo1"
+          name="XXXXX"
+          ip="33.158.212.26"
+          security="3"
+          icon="laptop"
+          type="4">
+
+<ports>21, 22, 25, 80, 1433</ports>
+<portsForCrack val="4"/>
+<proxy time="2"/>
+<firewall level="6"/>
+<dlink target="vertigoIRC"/>
+
+
+<file path="home" name="Vertigo.zip">#BINARY#</file>
+
+<eosDevice name="ePhone 6X" id="vertigoPhone" passOverride="alpine">
+<note>Login: Albin
+Password: e7219no</note>
+</eosDevice>
+
+<customthemefile path="sys" name="FloatVoid_x-server.sys" themePath="Themes/FloatVoidTheme.xml"/>
+
+</Computer>

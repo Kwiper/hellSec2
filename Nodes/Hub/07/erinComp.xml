@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="erinComp"
+          name="Erin Laptop"
+          security="4"
+          type="2">
+
+<ports>21, 22, 25, 80, 1433, 443</ports>
+<portsForCrack val="5"/>
+<proxy time="-1"/>
+<firewall level="6" solution="YAHTZEE"/>
+
+<file path="home/Work" name="Security_Trace_Prototype.exe">#BINARY#</file>
+<file path="home/Work" name="Security_Trace_Prototype.cc">#BINARY#</file>
+
+<eosDevice name="Erin's ePhone 5X" id="erinPhone" icon="ePhone2" empty="false" passOverride="alpine">
+<mail username="ering@jmail.com" pass="caligula"/>
+</eosDevice>
+
+<customthemefile path="sys" name="Aesthetic_x-server.sys" themePath="Themes/AestheticTheme.xml"/>
+
+</Computer>

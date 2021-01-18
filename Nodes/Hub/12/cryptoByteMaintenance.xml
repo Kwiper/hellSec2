@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="cryptoByteMaintenance"
+          name="CryptoByte Maintenance Server"
+          ip="221.151.36.32"
+          security="4"
+          type="4">
+
+<ports>22, 25, 443, 6881</ports>
+<portsForCrack val="4"/>
+<proxy time="2"/>
+<firewall level="6"/>
+
+<dlink target="cryptoByteWhitelist1"/>
+
+<file path="home" name="server_info.txt">This server is the central hub for all maintenance in the CryptoByte network. If you have any issues, contact Laura @22.153.57.12</file>
+<encryptedFile path="home" name="admin_pass.dec" extension=".txt" ip="192.168.1.1" header="admin pass" pass="V5A4V4">
+Main Server: cryptobyte
+User Database: Su8P21mLk
+Transaction Database: ZxC9284LLopYw21</encryptedFile>
+
+</Computer>

@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="lockhartNews"
+          name="Lockhart News"
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="4">
+
+<ports>21, 22, 25, 80</ports>
+<portsForCrack val="3"/>
+<proxy time="-1"/>
+<firewall level="6" solution="LOCKHART"/>
+
+<dlink target="lockhartCentral"/>
+
+<variableMissionListingServer name="Lockhart News" iconPath="Docs/EduLogo.png" articleFolderPath="Docs/LockhartNews" color="11,100,180" assigner="false" public="true" title="The Best News Right Here!"/>
+
+</Computer>

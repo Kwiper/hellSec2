@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hexarcRelay"
+          name="HexArc Relay Server"
+          security="4"
+          type="4">
+
+<ports>21, 25, 1433, 443</ports>
+<portsForCrack val="4"/>
+
+<dlink target="hexarcIT"/>
+
+</Computer>

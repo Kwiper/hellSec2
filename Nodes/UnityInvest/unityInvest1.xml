@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="unityInvest1"
+          name="Unity Relay Node"
+          ip="224.151.26.193"
+          security="5"
+          type="4">
+
+<ports>21, 22, 25, 80, 1433, 443</ports>
+<portsForCrack val="5"/>
+<proxy time="-1"/>
+<firewall level="6"/>
+<trace time="80"/>
+
+<dlink target="unityETAS3"/>
+<dlink target="unityInvest2"/>
+
+<file path="sys" name="Relay.dll">#BINARY#</file>
+
+</Computer>

@@ -1,0 +1,41 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hellIRC"
+          name="hellSec IRC Channel"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="empty">
+
+<adminPass pass="hellSecFN-2187" />
+
+<ports>25, 80, 6881, 443, 554, 1433</ports>
+<proxy time="2" />
+<portsForCrack val="6" />
+<firewall level="6" solution="SECTOR" additionalTime="1.0" />
+<trace time="100" />
+
+<dlink target="hellHub" />
+<dlink target="hellDrop" />
+
+<positionNear target="hellDrop" position="2" total="3" extraDistance="-0.2"/>
+<positionNear target="hellHub" position="1" total="3" extraDistance="-0.2"/>
+
+<IRCDaemon themeColor="106,110,127" name="hellSec IRC Channel" needsLogin="false">
+<user name="Quartz" color="127,0,112"/>
+<user name="H3l1x" color="3,42,82"/>
+<user name="CONSOLE" color="111,111,111" />
+
+<post user="H3l1x">What's going on with Bufflenut?</post>
+<post user="H3l1x">Is he not coming back?</post>
+<post user="Quartz">Nope.</post>
+<post user="Quartz">He said he was done with this job now.</post>
+<post user="Quartz">He's got a pregnant wife and runs a bakery.</post>
+<post user="Quartz">Or something.</post>
+<post user="H3l1x">Well good on him, I guess.</post>
+<post user="H3l1x">Let's just hope #PLAYERNAME# succeeds, though.</post>
+<post user="Quartz">Oh, he will.</post>
+<post user="Quartz">He should be coming back any minute now.</post>
+
+</IRCDaemon>
+
+</Computer>

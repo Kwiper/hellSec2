@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="prisonBreak"
+          name="FPB_Offline_Security"
+          security="5"
+          icon="chip"
+          type="4">
+
+<ports>21, 22, 25, 80, 1433, 6881, 443</ports>
+<portsForCrack val="7"/>
+<proxy time="-1"/>
+<firewall level="6" solution="LOCKUP"/>
+<trace time="-1"/>
+
+<file path="Security/Artan" name="Security.dll">#BINARY#</file>
+<file path="Security/Lex" name="Security.dll">#BINARY#</file>
+<file path="Security/Prima" name="Security.dll">#BINARY#</file>
+<file path="Security/Z3r0" name="Security.dll">#BINARY#</file>
+
+</Computer>

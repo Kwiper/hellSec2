@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hexarcRepo"
+          name="HexArc Repository Server"
+          security="5"
+          type="4">
+
+<account username="HexArc" password="h3x4rc" type="ADMIN"/>
+
+<ports>21, 22, 25, 80, 1433, 443, 6881</ports>
+<portsForCrack val="8"/>
+
+<encryptedFile path="bin" name="eosDeviceScan.dec" extension=".exe" ip="192.168.1.1" header="eosDeviceScan">#EOS_SCANNER_EXE#</encryptedFile>
+<file path="bin" name="eosDeviceScan.txt">ABOUT EOS DEVICE SCANNER
+A security tool developed in conjunction with Macrosoft to scan for any eOS devices connected to a computer.
+This is to allow for security checks from Macrosoft officials.</file>
+
+</Computer>

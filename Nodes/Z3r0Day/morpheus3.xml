@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="morpheus3"
+          name="Morpheus Repo"
+          security="4"
+          type="4">
+
+<ports>25, 22, 6881, 443, 554</ports>
+<portsForCrack val="5"/>
+<proxy time="-1"/>
+<firewall level="6"/>
+<trace time="180"/>
+
+<file path="bin" name="Clockv2.exe">#CLOCK_V2_EXE#</file>
+
+</Computer>

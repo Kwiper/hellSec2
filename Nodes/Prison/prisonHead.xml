@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="prisonHead"
+          name="FPB Head Computer"
+          security="4"
+          type="4">
+
+<ports>21, 22, 25, 80, 1433</ports>
+<portsForCrack val="5"/>
+<trace time="-1"/>
+<proxy time="1"/>
+<firewall level="-1"/>
+
+<eosDevice name="ePhone 4X" id="prisonPhone2" icon="ePhone2" empty="true" passOverride="alpine">
+<mail username="winston@ufa.prison.com" pass="security"/>
+</eosDevice>
+
+<encryptedFile path="home" name="Offline_Pass.dec" extension=".txt" ip="192.168.1.1" header="Offline Pass">V4G4B0ND</encryptedFile>
+
+</Computer>

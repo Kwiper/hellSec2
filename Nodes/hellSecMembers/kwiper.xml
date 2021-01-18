@@ -1,0 +1,53 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kwiper"
+          name="Kwiper Battlestation"
+          ip="123.151.255.12"
+          security="5"
+          type="4">
+
+<ports>21, 22, 25, 80, 1433, 443, 554</ports>
+<portsForCrack val="7"/>
+<proxy time="1"/>
+<firewall level="-1"/>
+<trace time="200"/>
+
+<file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+<file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+<file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+<file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+<file path="bin" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+<file path="bin" name="DECHead.exe">#DECHEAD_PROGRAM#</file>
+<file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+<file path="bin" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
+<file path="bin" name="Tracekill.exe">#TRACEKILL_EXE#</file>
+<file path="bin" name="TorrentStreamInjector.exe">#TORRENT_EXE#</file>
+<file path="bin" name="SSLTrojan.exe">#SSL_EXE#</file>
+<file path="bin" name="FTPSprint.exe">#FTP_FAST_EXE#</file>
+<file path="bin" name="MemForensics.exe">#MEM_FORENSICS_EXE#</file>
+<file path="bin" name="MemDumpGenerator.exe">#MEM_DUMP_GENERATOR#</file>
+
+<file path="home" name="Message.txt">Hello, #PLAYERNAME#,
+Looks like you found my computer. Or at least, the computer I created to act as mine.
+First and foremost, thank you for playing this extension. And thank you for spending the time to actually do the post-game. Unless you datamined this, in which case, good job for datamining this.
+As of making this, it has been about a year since Matt released Extensions to the world, and I have enjoyed seeing all the different experiences people have made.
+hellSec 2 serves as a 1-year anniversary thing for the original hellSec and I suppose Extensions in general. Hopefully this one is much better than the original (I didn't like the original one's ending.)
+I don't have much else to say, this message thing was more of a little easter egg for you to find. If you haven't already, be sure to try to find all the other hidden secrets in the extension!
+I really hope you enjoyed this one, and be sure to tell your grandma about this. And if you haven't already, check out all my other extensions! So far, there are the original hellSec, Core and Sakura. With more to come, of course!
+Until next time,
+-Kwiper
+
+P.S: Try replying to Quartz's first email with "no" ;)
+</file>
+
+<customthemefile path="sys" name="Weeb_x-server.sys" themePath="Themes/WeebTheme.xml"/>
+
+<encryptedFile path="home" name="Secret_Project_1.dec" extension=".txt" ip="123.151.255.12" header="Secret Project 1">The Cooperative Hacking Initiative
+Codenamed: "Ready Player One" and "Ready Player Two"</encryptedFile>
+
+<encryptedFile path="home" name="Secret_Project_2.dec" extension=".txt" ip="123.151.255.12" header="Secret Project 2">Re:Try, alternatively known as Tempus Edax Rerum.
+
+What would you do if you could travel to the past? What could you do to save the future?</encryptedFile>
+
+<encryptedFile path="home" name="Totally_Legit_Secret_Project_3.dec" extension=".txt" ip="123.151.255.12" header="Totally Legit Secret Project 3">Hacknet: Sakura 18+ Edition is totally in development :^)</encryptedFile>
+
+</Computer>

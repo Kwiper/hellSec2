@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="prisonDatabase"
+          name="Federal Prisons Database"
+          security="5"
+          type="4">
+
+<ports>21, 22, 25, 80, 1433, 443, 6881</ports>
+<portsForCrack val="5"/>
+<proxy time="2"/>
+<firewall level="-1"/>
+<trace time="200"/>
+
+<dlink target="prisonMainframe"/>
+<dlink target="prisonMail"/>
+
+<deathRowDatabase/>
+
+<Memory>
+<Data>
+<Block>@24 Connection from: 232.124.27.21</Block>
+</Data>
+</Memory>
+
+</Computer>

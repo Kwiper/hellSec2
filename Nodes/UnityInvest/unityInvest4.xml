@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="unityInvest4"
+          name="Unity_Shell_Node_1984"
+          security="5"
+          type="4">
+
+
+<ports>21, 22, 25, 80, 1433</ports>
+<portsForCrack val="4"/>
+<proxy time="3"/>
+<firewall level="6"/>
+<trace time="100"/>
+
+<file path="home" name="unity_storage.txt">bigbrotheriswatching</file>
+
+<WhitelistAuthenticatorDaemon Remote="unityInvest3"/>
+
+</Computer>

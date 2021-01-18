@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dasshuCEO"
+          name="Dasshu Director Workstation"
+          ip="223.141.32.38"
+          security="5"
+          type="1">
+
+<adminPass pass="4C34C4D3MY"/>
+
+<ports>21, 22, 25, 80, 1433, 443, 6881, 554</ports>
+<portsForCrack val="9"/>
+<proxy time="-1"/>
+<firewall level="-1"/>
+<trace time="150"/>
+
+<file path="home/Projects" name="Prj_ACE.docx">#BINARY#</file>
+<file path="home/Projects" name="Prj_Crys.docx">#BINARY#</file>
+<file path="home/Projects" name="Prj_3.docx">#BINARY#</file>
+
+</Computer>

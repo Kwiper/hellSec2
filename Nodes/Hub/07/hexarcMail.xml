@@ -1,0 +1,49 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hexarcMail"
+          name="HexArc Mail Server"
+          security="5"
+          type="4">
+
+<account username="haIT" password="H3X4RC-I7" type="2"/>
+
+<ports>21, 22, 25, 80, 1433, 443</ports>
+<portsForCrack val="7"/>
+
+<mailServer name="HexArc" color="26,116,163" generateJunk="true">
+<email recipient="haIT" sender="haDEV_1029" subject="Re: Re: Repository">
+Hey, IT,
+
+Could you guys provide the login details for the repo server?
+
+Thanks,
+-Erin
+===============================================
+Hey, Erin
+
+Guest login is HexArc. Password: h3x4rc
+
+-IT
+===============================================
+Thanks!
+
+-Erin
+</email>
+<email recipient="haIT" sender="haDEV_1201" subject="Re: Re: Copy Machine">
+Yo, copier's acting up down in the Dev office.
+===============================================
+Plug the copier in.
+===============================================
+Oh, thanks.
+</email>
+<email recipient="haIT" sender="haCEO" subject="Difficulties in the Workplace">
+Good day, IT team,
+
+It has come to my attention that there has been some attitude problems towards the other employees from you all.
+I understand that it can be frustrating to fix an issue such as an unplugged computer every single day, but please understand that this job is just as difficult on the dev team as it is on you guys.
+Please try to understand how the others feel, and try to boost morale in the workplace.
+
+Sincerely, 
+Peter Slattery, CEO</email>
+</mailServer>
+
+</Computer>

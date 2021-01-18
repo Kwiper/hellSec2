@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="prisonManage"
+          name="ID_331_Laptop"
+          ip="232.124.27.21"
+          security="4"
+          type="1">
+
+<ports>21, 25, 80, 443, 1433</ports>
+<portsForCrack val="5"/>
+<proxy time="-1"/>
+<firewall level="-1"/>
+
+<dlink target="prisonDatabase"/>
+
+<file path="home" name="Management.docx">#BINARY#</file>
+<file path="home" name="Work.docx">#BINARY#</file>
+
+<eosDevice name="331_ePhone" id="prisonPhone1" icon="ePhone2" empty="true" passOverride="alpine">
+<mail username="owen@ufa.prison.com" pass="parable"/>
+</eosDevice>
+
+</Computer>

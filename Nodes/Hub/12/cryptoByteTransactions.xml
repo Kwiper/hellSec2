@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="cryptoByteTransactions"
+          name="CryptoByte Transaction Database"
+          security="5"
+          type="4">
+
+<adminPass pass="ZxC9284LLopYw21"/>
+
+<ports>21, 22, 25, 80, 1433, 443</ports>
+<portsForCrack val="200"/>
+<proxy time="2"/>
+
+<DatabaseDaemon Permissions="private" DataType="TextRecord" Foldername="database" Color="85,0,150" AdminEmailAccount="Matt@jmail.com" AdminEmailHostID="jmail" Name="Transactions Database">
+<TextRecord>
+<Title>Transaction between users "Connect" and "Intrinsic"</Title>
+<Data>Transaction ID: VFS-1921-H31</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>Transaction between users "Aegis" and "Balthazaar"</Title>
+<Data>Transaction ID: PLE-2921-D46</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>Transaction between users "Quetzalcoatl" and "Horatio"</Title>
+<Data>Transaction ID: LEP-0123-M92</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>Transaction between users "Zorro" and "Faore"</Title>
+<Data>Transaction ID: VIP-9102-B27</Data>
+</TextRecord>
+</DatabaseDaemon>
+
+<WhitelistAuthenticatorDaemon Remote="cryptoByteWhitelist1"/>
+
+</Computer>

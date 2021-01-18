@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hexarcIT"
+          name="HexArc IT Server"
+          security="4"
+          type="4">
+
+<ports>21, 22, 25, 80, 443</ports>
+<portsForCrack val="5"/>
+<proxy time="2"/>
+<firewall level="5"/>
+
+<encryptedFile path="home" name="email.dec" extension=".txt" ip="192.168.1.1" header="email">The HexArc IT team shares one email. This is to ensure complete transparency between members.
+Please save these login details:
+username: haIT
+password: H3X4RC-I7</encryptedFile>
+
+</Computer>

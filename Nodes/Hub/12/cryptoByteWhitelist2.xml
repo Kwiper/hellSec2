@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="cryptoByteWhitelist2"
+          name="CryptoByte Whitelist Server 2"
+          ip="223.121.216.2"
+          security="5"
+          type="4">
+
+<ports>21, 22, 25, 80, 1433, 443, 6881</ports>
+<portsForCrack val="6"/>
+<proxy time="1"/>
+<firewall level="6"/>
+
+<WhitelistAuthenticatorDaemon SelfAuthenticating="false"/>
+
+</Computer>

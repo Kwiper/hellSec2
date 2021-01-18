@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hellDHS"
+          name="hellSec"
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="4">
+
+<adminPass pass="hellSec-4DM1N"/>
+
+<ports>21, 22, 25, 80, 1433, 6881, 443, 192, 554</ports>
+<portsForCrack val="9"/>
+
+<proxy time="1"/>
+<firewall level="6"/>
+<trace time="120"/>
+
+<dlink target="hellDrop"/>
+<dlink target="quartz"/>
+<dlink target="h3l1x"/>
+<dlink target="hel"/>
+<dlink target="cardinal"/>
+<dlink target="z3r0"/>
+
+<DHSDaemon groupName="hellSec" addsFactionPointOnMissionComplete="false" autoClearMissionsOnPlayerComplete="false" themeColor="106, 110, 127" allowContractAbbandon="false">
+<agent name="Quartz" pass="sirfluffykins" color="127,0,112"/>
+<agent name="H3l1x" pass="L0rdH3l1x" color="3,42,82"/>
+<agent name="Z3r0" pass="Z3r0Hour" color="106,110,127"/>
+<agent name="Cardinal" pass="RedRobin" color="117,14,6"/>
+<agent name="Hel" pass="Helheim" color="63,22,117"/>
+<agent name="#PLAYERNAME#" pass="readyplayerone" color="151,151,151"/>
+</DHSDaemon>
+
+</Computer>

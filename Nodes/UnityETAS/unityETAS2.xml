@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="unityETAS2"
+          name="UNT_Proxy_D-357"
+          security="5"
+          type="4">
+
+<ports>21, 22, 25, 80, 1433, 443</ports>
+<portsForCrack val="5"/>
+<proxy time="2"/>
+<firewall level="8"/>
+<trace time="100"/>
+
+<file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+<file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+<file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+<file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+<file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+
+<file path="log" name="@14_unlink:_from_254.124.61.34">@14 unlink: from 254.124.61.34</file>
+<file path="log" name="@0_dlink:_from_254.124.61.34">@0 dlink: from 254.124.61.34</file>
+<file path="log/backup" name="@14_unlink:_from_254.124.61.34">@14 unlink: from 254.124.61.34</file>
+<file path="log/backup" name="@0_dlink:_from_254.124.61.34">@0 dlink: from 254.124.61.34</file>
+
+
+<encryptedFile path="bin" name="ComShell.dec" ip="224.192.69.165" header="ComShell" pass="UNITY_FOREVER">#SHELL_CONTROLLER_EXE#</encryptedFile>
+
+
+</Computer>

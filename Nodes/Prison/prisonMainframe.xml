@@ -1,0 +1,70 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="prisonMainframe"
+          name="Federal Prisons Bureau Mainframe Server"
+          security="5"
+          type="4">
+
+<ports>21, 22, 25, 80, 6881, 443, 1433</ports>
+<portsForCrack val="7"/>
+<proxy time="-1"/>
+<firewall level="-1"/>
+<trace time="150"/>
+
+<dlink target="prisonHead"/>
+
+<file path="Inmates" name="Adrian, Curtis">#BINARY#</file>
+<file path="Inmates" name="Agra, Lyra">#BINARY#</file>
+<file path="Inmates" name="Beauregarde, Jacques">#BINARY#</file>
+<file path="Inmates" name="Bond, Jane">#BINARY#</file>
+<file path="Inmates" name="Caliban, Porter">#BINARY#</file>
+<file path="Inmates" name="Couramine, Mei">#BINARY#</file>
+<file path="Inmates" name="Dopinder, Karan">#BINARY#</file>
+<file path="Inmates" name="Dylan, Jacob">#BINARY#</file>
+<file path="Inmates" name="Ernest, Peter">#BINARY#</file>
+<file path="Inmates" name="Ezra, Lily">#BINARY#</file>
+<file path="Inmates" name="Fabello, Fernando">#BINARY#</file>
+<file path="Inmates" name="Fabello, Geraldo">#BINARY#</file>
+<file path="Inmates" name="Gregson, Clark">#BINARY#</file>
+<file path="Inmates" name="Guillermo, Natalia">#BINARY#</file>
+<file path="Inmates" name="Hathaway, Hartley">#BINARY#</file>
+<file path="Inmates" name="Hurley, Henrietta">#BINARY#</file>
+<file path="Inmates" name="Ivanko, Anatoly">#BINARY#</file>
+<file path="Inmates" name="Ivanko, Yuri">#BINARY#</file>
+<file path="Inmates" name="Jade, Ashley">#BINARY#</file>
+<file path="Inmates" name="Jordan, Henry">#BINARY#</file>
+<file path="Inmates" name="Kelly, Bryce">#BINARY#</file>
+<file path="Inmates" name="King, Steven">#BINARY#</file>
+<file path="Inmates" name="Lakefield, Kieth">#BINARY#</file>
+<file path="Inmates" name="London, Sara">#BINARY#</file>
+<file path="Inmates" name="Mark, Nathan">#BINARY#</file>
+<file path="Inmates" name="Moran, Austin">#BINARY#</file>
+<file path="Inmates" name="Newby, Robert">#BINARY#</file>
+<file path="Inmates" name="Nolan, Ronald">#BINARY#</file>
+<file path="Inmates" name="Olson, Rupert">#BINARY#</file>
+<file path="Inmates" name="Owens, Matthew">#BINARY#</file>
+<file path="Inmates" name="Peterson, Danielle">#BINARY#</file>
+<file path="Inmates" name="Podolski, Vladimir">#BINARY#</file>
+<file path="Inmates" name="Queen, Roy">#BINARY#</file>
+<file path="Inmates" name="Queen, Theodore">#BINARY#</file>
+<file path="Inmates" name="Ross, Bob">#BINARY#</file>
+<file path="Inmates" name="Rupert, Harry">#BINARY#</file>
+<file path="Inmates" name="Senjougahara, Koyomi">#BINARY#</file>
+<file path="Inmates" name="Spade, Zachary">#BINARY#</file>
+<file path="Inmates" name="Trevor, Taryn">#BINARY#</file>
+<file path="Inmates" name="Trobbiani, Matthew">#BINARY#</file>
+<file path="Inmates" name="Underhill, Bob">#BINARY#</file>
+<file path="Inmates" name="Underhill, Joe">#BINARY#</file>
+<file path="Inmates" name="Vector, Evie">#BINARY#</file>
+<file path="Inmates" name="von Albern, Angela">#BINARY#</file>
+<file path="Inmates" name="Wesley, James">#BINARY#</file>
+<file path="Inmates" name="Winston, Charlie">#BINARY#</file>
+<file path="Inmates" name="Xander, Alexandra">#BINARY#</file>
+<file path="Inmates" name="Xavier, Sam">#BINARY#</file>
+<file path="Inmates" name="Yacob, Howard">#BINARY#</file>
+<file path="Inmates" name="Yosef, Abdul">#BINARY#</file>
+<file path="Inmates" name="Zak, Riley">#BINARY#</file>
+<file path="Inmates" name="Zemo, Henrik">#BINARY#</file>
+
+<WhitelistAuthenticatorDaemon Remote="prisonWhitelist"/>
+
+</Computer>

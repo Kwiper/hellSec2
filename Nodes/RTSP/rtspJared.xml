@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="rtspJared"
+          name="Jared Workstation"
+          security="1"
+          type="1">
+
+<ports>21, 22, 443, 6881</ports>
+<portsForCrack val="4"/>
+<proxy time="2"/>
+<firewall level="6"/>
+
+<file path="home" name="Sakura_Girls.exe">#BINARY#</file>
+<file path="home/Pictures" name="Yusa1.png">#BINARY#</file>
+<file path="home/Pictures" name="Yusa2.png">#BINARY#</file>
+<file path="home/Pictures" name="Yusa3.png">#BINARY#</file>
+<file path="home/Pictures" name="Yusa4.png">#BINARY#</file>
+<file path="home/Pictures" name="Yusa_Lewd1.png">#BINARY#</file>
+<file path="home/Pictures" name="Yusa_Lewd2.png">#BINARY#</file>
+<file path="home/Pictures" name="Yusa_Lewd3.png">#BINARY#</file>
+<file path="home/Pictures" name="Yusa_Lewd4.png">#BINARY#</file>
+<file path="home" name="Yusa.txt">Yusa is the one true waifu and no one can tell me otherwise.</file>
+
+</Computer>

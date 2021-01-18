@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="cryptoByte"
+          name="CryptoByte"
+          security="4"
+          type="4">
+
+<adminPass pass="cryptobyte"/>
+
+<ports>22, 25, 443, 6881, 1433, 554</ports>
+<portsForCrack val="6"/>
+<proxy time="1"/>
+<firewall level="6" solution="BYTECOIN"/>
+<trace time="120"/>
+
+<dlink target="cryptoByteDatabase"/>
+
+<file path="home" name="server_info.txt">This is the main server that users connect to for Bytecoin transactions. 
+If there are any issues, please refer to this link: 221.151.36.32</file>
+
+<LogoDaemon Name="CryptoByte" ShowsTitle="true" TextColor="227, 110, 0, 200" LogoImagePath="Docs/CryptoByte.png">
+</LogoDaemon>
+
+</Computer>

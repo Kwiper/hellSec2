@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="pointClicker"
+          name="Point Clicker"
+          ip="182.151.215.12"
+          security="2"
+          type="4">
+
+<ports>21, 22, 25, 80</ports>
+<portsForCrack val="4"/>
+
+<PointClicker />
+
+</Computer>

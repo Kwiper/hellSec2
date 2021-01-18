@@ -1,0 +1,15 @@
+<?xml version= "1.0" encoding = "UTF-8" ?>
+<Computer id="mott"
+          name="Mott."
+          ip="1.1.1.1"
+          security="1"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<ports>21, 22, 25, 80</ports>
+<portsForCrack val="0"/>
+
+<file path="sys" name="Mott_Heart.exe">#BINARY#</file>
+<customthemefile path="sys" name="Matt_x-server.sys" themePath="Themes/MattTheme.xml"/>
+
+</Computer>

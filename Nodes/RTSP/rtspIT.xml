@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="rtspIT"
+          name="Arachnid IT Hub"
+          ip="251.28.26.152"
+          security="5"
+          type="4">
+
+<ports>21, 22, 25, 80, 1433, 443, 6881</ports>
+<portsForCrack val="7"/>
+<proxy time="1"/>
+<firewall level="-1"/>
+<trace time="100"/>
+
+<eosDevice name="Amon ePhone 6X" id="rtspPhone1" icon="ePhone2" empty="true" passOverride="alpine">
+<note>Private IRC
+55.159.154.12
+</note>
+<note>Jared's Waifu
+Jared keeps telling us his phone password is his "waifu." Whatever that means.</note>
+</eosDevice>
+
+<eosDevice name="Jared ePhone 6X Plus" id="rtspPhone2" icon="ePhone2" empty="true" passOverride="Yusa">
+<note>RTSP Password
+Ck832LoZn14</note>
+<file path="eos/pictures" name="Yusa1.png">#BINARY#</file>
+<file path="eos/pictures" name="Yusa2.png">#BINARY#</file>
+<file path="eos/pictures" name="Yusa_Lewd.png">#BINARY#</file>
+</eosDevice>
+
+</Computer>

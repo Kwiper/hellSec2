@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="vertigoIRC"
+          name="Private IRC Channel"
+          security="5"
+          type="4">
+
+<account username="Albin" password="e7219no" type="ADMIN"/>
+
+<ports>21, 22, 25, 80, 1433, 443</ports>
+<portsForCrack val="7"/>
+<proxy time="1"/>
+<firewall level="6"/>
+<dlink target="vertigo2"/>
+<dlink target="vertigo1"/>
+
+<IRCDaemon name="Private IRC Channel" needsLogin="true">
+<user name="Albin" color="252,121,21"/>
+<user name="Debin" color="125,104,122"/>
+
+<post user="Albin">I got it.</post>
+<post user="Albin">Sending to you now.</post>
+<post user="Debin">Cheers.</post>
+<post user="Debin">Wow, this is some great stuff.</post>
+<post user="Albin">It was worth the money.</post>
+<post user="Debin">Let's hope the UFA government doesn't track us down haha</post>
+<post user="Albin">It's alright, every connection has been encrypted.</post>
+<post user="Debin">Even this?</post>
+<post user="Albin">Um</post>
+<post user="Albin">This place isn't accessible without my or your computer</post>
+<post user="Albin">We're fine.</post>
+<post user="Debin">Just being safe.</post>
+</IRCDaemon>
+
+</Computer>

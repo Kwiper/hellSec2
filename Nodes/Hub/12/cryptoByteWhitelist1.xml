@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="cryptoByteWhitelist1"
+          name="CryptoByte Whitelist Server 1"
+          security="4"
+          type="4">
+
+<ports>25, 21, 22, 443, 554</ports>
+<portsForCrack val="5"/>
+<proxy time="1"/>
+<firewall level="-1"/>
+<trace time="120"/>
+
+<WhitelistAuthenticatorDaemon Remote="cryptoByteWhitelist2"/>
+<WhitelistAuthenticatorDaemon SelfAuthenticating="false"/>
+
+</Computer>

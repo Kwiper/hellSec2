@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="blackMarket"
+          name="expyuzz4wqqyqhjn.chives.link"
+          security="4"
+          icon="chip"
+          type="4">
+
+<ports>21, 22, 25, 80, 6881</ports>
+<portsForCrack val="5"/>
+<proxy time="1"/>
+<firewall level="-1"/>
+
+<Memory>
+<Commands>
+<Command>dlink 33.158.212.26</Command>
+<Command>unlink 33.158.212.26</Command>
+</Commands>
+</Memory>
+
+<messageBoard name="Message Board">
+<thread>Docs/BlackMarket/blackmarket1.txt</thread>
+<thread>Docs/BlackMarket/blackmarket2.txt</thread>
+<thread>Docs/BlackMarket/blackmarket3.txt</thread>
+<thread>Docs/BlackMarket/blackmarket4.txt</thread>
+</messageBoard>
+
+</Computer>

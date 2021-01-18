@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="coreDHS"
+          name="The Core"
+          ip="225.102.52.23"
+          security="5"
+          allowsDefaultBootModule="true"
+          type="4" >
+
+<adminPass pass="C0r3DH5-A113" />
+
+<ports>21, 22, 25, 80, 1433, 6881, 443, 554</ports>
+
+<proxy time="2" />
+<portsForCrack val="8" />
+<firewall level="11"/>
+<trace time="200" />
+<admin type="none"/>
+
+<DHSDaemon groupName="The Core" addsFactionPointOnMissionComplete="true"
+           autoClearMissionsOnPlayerComplete="true" themeColor="122, 127, 196"
+           allowContractAbandon="false">
+
+<agent name="L" pass="CoreAdmin-3356" color="178, 178, 178"/>
+<agent name="CORE" pass="CoreCore" color="255, 255, 154"/>
+
+</DHSDaemon>
+
+</Computer>

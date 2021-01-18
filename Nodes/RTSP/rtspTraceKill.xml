@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="rtspTraceKill"
+          name="3353 Development Hub"
+          ip="25.123.53.27"
+          security="5"
+          type="4">
+
+<ports>21, 22, 25, 80, 1433, 6881</ports>
+<portsForCrack val="6"/>
+<trace time="-1"/>
+
+<file path="bin" name="Tracekill.exe">#TRACEKILL_EXE#</file>
+
+<WhitelistAuthenticatorDaemon Remote="rtspWhitelist"/>
+
+</Computer>

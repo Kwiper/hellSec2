@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hellDrop"
+          name="hellSec File Drop Server"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="4">
+
+<adminPass pass="pentacle" /> 
+
+<ports>22, 21, 80, 6881, 443, 25</ports>
+<proxy time="3" />
+<portsForCrack val="6" />
+<firewall level="-1" />
+<trace time="95" />
+<admin type="none"/>
+
+<positionNear target="hellIRC" position="2" total="3" extraDistance="-0.2"/>
+<positionNear target="hellHub" position="1" total="3" extraDistance="-0.2"/>
+
+<file path="bin" name="FTPSprint.exe">#FTP_FAST_EXE#</file>
+<file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+<file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+<file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+
+<file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+
+<customthemefile path="bin/Themes" name="Phoenix_x-server.sys" themePath="Themes/PhoenixTheme.xml"/>
+<customthemefile path="bin/Themes" name="Forest_x-server.sys" themePath="Themes/ForestTheme.xml"/>
+<file path="bin/Themes" name="Mint_x-server.sys">#MINT_THEME#</file>
+
+<uploadServerDaemon name="hellSec File Drop" folder="Drop" needsAuth="false" color="38,201,155"/>
+
+</Computer>

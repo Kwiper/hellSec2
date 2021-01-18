@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="rtspWhitelist"
+          name="Arachnid Cyber Solutions Whitelist Server"
+          ip="29.191.151.52"
+          security="5"
+          type="4">
+
+
+<ports>21, 22, 25, 80, 1433, 443, 6881, 554</ports>
+<portsForCrack val="7"/>
+<proxy time="2"/>
+<firewall level="6"/>
+<trace time="200"/>
+
+<WhitelistAuthenticatorDaemon SelfAuthenticating="false"/>
+
+</Computer>

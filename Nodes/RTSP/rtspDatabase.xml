@@ -1,0 +1,43 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="rtspDatabase"
+          name="Arachnid Product Database"
+          security="5"
+          type="4">
+
+<ports>21, 22, 25, 80, 1433, 443, 6881</ports>
+<portsForCrack val="5"/>
+<proxy time="2"/>
+<firewall level="6"/>
+<trace time="200"/>
+<tracker />
+
+
+<file path="home" name="#3353_TK">Product ID: 3353
+Name: TraceKill
+Description: Will freeze any traces coming from an external node.
+Development Site: 25.123.53.27
+</file>
+
+<file path="home" name="#3632_CLK">Product ID: 3632
+Name: Cl #BINARYSMALL#
+Descri #BINARYSMALL#
+
+[DISCONTINUED]</file>
+
+<file path="home" name="#3714_ST">Product ID: 3714
+Name: SecurityTracer
+Description: Will create a trace on the computer it is run on.
+Development Site: #RANDOM_IP#</file>
+
+<file path="home" name="#3725_RTSP">Product ID: 3725
+Name: RTSPCrack
+Description: Enables the access of RTSP ports.
+Development Site: 24.124.53.27</file>
+
+<Memory>
+<Data>
+<Block>@0 Connection from: 251.28.26.152</Block>
+</Data>
+</Memory>
+
+</Computer>

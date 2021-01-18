@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="facenookWeb"
+          name="Facenook.com"
+          security="5"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<ports>21, 22, 25, 80, 1433</ports>
+<portsForCrack val="5"/>
+<proxy time="1"/>
+<firewall level="6"/>
+<trace time="-1"/>
+
+<dlink target="facenookDatabase"/>
+<dlink target="facenookRelay"/>
+
+<LogoDaemon Name="Facenook.com" ShowsTitle="true" TextColor="255,255,255,200" LogoImagePath="Docs/FacenookLogo.png">
+Connecting the world.
+</LogoDaemon>
+
+</Computer>

@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="unityInvest2"
+          name="Unity Central Proxy"
+          security="4"
+          type="4">
+
+<ports>21, 22, 25, 80, 1433, 443, 6881</ports>
+<portsForCrack val="5"/>
+<proxy time="1"/>
+<firewall level="6"/>
+<trace time="100"/>
+
+<dlink target="unityInvest1"/>
+<dlink target="unityInvest4"/>
+<dlink target="unityInvest5"/>
+
+<file path="log" name="@35_unlink:_from_251.26.67.156">@35 unlink: from 251.26.67.156</file>
+<file path="log" name="@31_dlink:_from_251.26.67.156">@31 unlink: from 251.26.67.156</file>
+<file path="log/Backup" name="@35_unlink:_from_251.26.67.156">@35 unlink: from 251.26.67.156</file>
+<file path="log/Backup" name="@31_dlink:_from_251.26.67.156">@31 unlink: from 251.26.67.156</file>
+
+</Computer>

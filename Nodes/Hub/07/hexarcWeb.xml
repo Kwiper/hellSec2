@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hexarcWeb"
+          name="HexArc Web Server"
+          security="5"
+          type="4">
+
+<ports>21, 22, 25, 80, 1433, 443, 6881</ports>
+<portsForCrack val="6"/>
+<proxy time="1"/>
+<firewall level="-1"/>
+<trace time="120"/>
+
+<dlink target="hexarcMail"/>
+<dlink target="hexarcRepo"/>
+<dlink target="hexarcRelay"/>
+
+<LogoDaemon Name="HexArc" ShowsTitle="false" TextColor="26, 116, 163, 200" LogoImagePath="Docs/HexArc.png">
+</LogoDaemon>
+
+</Computer>

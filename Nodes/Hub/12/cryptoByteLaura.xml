@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="cryptoByteLaura"
+          name="Laura Laptop"
+          ip="22.153.57.12"
+          security="3"
+          type="2">
+
+<ports>22, 25, 80, 554</ports>
+<portsForCrack val="3"/>
+<proxy time="-1"/>
+<firewall level="-1"/>
+<trace time="100"/>
+
+<eosDevice name="Laura ePhone 7X" id="cryptoBytePhone" icon="ePhone2" empty="false" passOverride="alpine">
+<note>admin passes
+V5A4V4</note>
+</eosDevice>
+
+</Computer>

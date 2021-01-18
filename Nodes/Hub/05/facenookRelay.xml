@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="facenookRelay"
+          name="Facenook Relay Server"
+          security="4"
+          type="4">
+
+<ports>21, 22, 25, 80, 1433</ports>
+<portsForCrack val="4"/>
+<proxy time="1"/>
+<firewall level="-1"/>
+<trace time="150"/>
+
+<file path="sys" name="Server_Uptime.dll">#BINARY#</file>
+<file path="bin" name="SSLTrojan.exe">#SSL_EXE#</file>
+
+</Computer>

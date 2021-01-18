@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="unityInvest5"
+          name="Unity_Backup_Storage"
+          security="5"
+          type="4">
+
+<adminPass pass="bigbrotheriswatching"/>
+<ports>21, 22, 25, 80, 1433, 443, 6881</ports>
+<portsForCrack val="1000"/>
+<proxy time="5"/>
+<trace time="10"/>
+
+<file path="home" name="unity.txt">We are Unity.
+We are a collective
+United under a single goal.
+Are you prepared
+To become one?</file>
+<file path="home" name="unity_manifesto.txt">We are Unity.
+Our goal: For everyone to become one.
+For everyone to be united without flags, without conflict, without differences.
+</file>
+
+</Computer>

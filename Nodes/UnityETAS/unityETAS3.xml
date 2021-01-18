@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="unityETAS3"
+          name="Unity Shell Node"
+          ip="254.124.61.34"
+          security="5"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<ports>21, 22, 25, 80, 1433, 443, 6881, 554</ports>
+<portsForCrack val="5"/>
+<trace time="80"/>
+<proxy time="2"/>
+<firewall level="8" additionalTime="0.2"/>
+
+</Computer>

@@ -1,0 +1,51 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="cryptoByteDatabase"
+          name="CryptoByte User Database"
+          ip="222.151.216.1"
+          security="5"
+          type="4">
+
+<adminPass pass="Su8P21mLk"/>
+
+<ports>22, 25, 80, 1433, 443, 6881, 554</ports>
+<portsForCrack val="7"/>
+<proxy time="-1"/>
+<firewall level="6"/>
+<trace time="150"/>
+
+<dlink target="cryptoByteTransactions"/>
+
+<file path="Users/Aegis" name="account.dat">#BINARY#</file>
+<file path="Users/Balthazaar" name="account.dat">#BINARY#</file>
+<file path="Users/Connect" name="account.dat">#BINARY#</file>
+<file path="Users/Deacon" name="account.dat">#BINARY#</file>
+<file path="Users/Eris" name="account.dat">#BINARY#</file>
+<file path="Users/Faore" name="account.dat">#BINARY#</file>
+<file path="Users/GoblinKing" name="account.dat">#BINARY#</file>
+<file path="Users/Horatio" name="account.dat">#BINARY#</file>
+<file path="Users/Intrinsic" name="account.dat">#BINARY#</file>
+<file path="Users/Jarvis" name="account.dat">#BINARY#</file>
+<file path="Users/Kwooper" name="account.dat">#BINARY#</file>
+<file path="Users/Lycan" name="account.dat">#BINARY#</file>
+<file path="Users/Mystic" name="account.dat">#BINARY#</file>
+<file path="Users/Nero" name="account.dat">#BINARY#</file>
+<file path="Users/Orann" name="account.dat">#BINARY#</file>
+<file path="Users/Prima" name="account.dat">#BINARY#</file>
+<file path="Users/Quetzalcoatl" name="account.dat">#BINARY#</file>
+<file path="Users/Ryder" name="account.dat">#BINARY#</file>
+<file path="Users/Strider" name="account.dat">#BINARY#</file>
+<file path="Users/Turnabout" name="account.dat">#BINARY#</file>
+<file path="Users/Undead" name="account.dat">#BINARY#</file>
+<file path="Users/Vector" name="account.dat">#BINARY#</file>
+<file path="Users/Wyvern" name="account.dat">#BINARY#</file>
+<file path="Users/Xander" name="account.dat">#BINARY#</file>
+<file path="Users/Yggdrasil" name="account.dat">#BINARY#</file>
+<file path="Users/Zorro" name="account.dat">#BINARY#</file>
+
+<Memory>
+<Commands>
+<Command>unlink 222.151.216.1 223.121.216.2</Command>
+</Commands>
+</Memory>
+
+</Computer>

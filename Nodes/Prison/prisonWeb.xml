@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="prisonWeb"
+          name="Federal Prisons Bureau"
+          ip="215.29.235.121"
+          security="4"
+          type="4">
+
+<ports>21, 22, 25, 80, 443, 1433, 6881</ports>
+<portsForCrack val="6"/>
+<firewall level="6" solution="PRISON"/>
+<proxy time="-1"/>
+<trace time="150"/>
+
+<dlink target="prisonDatabase"/>
+
+<addWebServer name="Federal Prison Bureau"
+              url="Web/Prison.html"/>
+
+</Computer>

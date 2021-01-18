@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dasshuHub"
+          name="Dasshu Hub Server"
+          security="5"
+          type="4">
+
+<ports>21, 22, 25, 554, 1433, 443</ports>
+<portsForCrack val="6"/>
+<proxy time="2"/>
+<firewall level="6" solution="DASSHU"/>
+<trace time="120"/>
+
+<dlink target="dasshuCEO"/>
+
+<Memory>
+<Commands>
+<Command>connect 223.141.32.38</Command>
+<Command>login</Command>
+<Command>admin</Command>
+<Command>4C34C4D3MY</Command>
+</Commands>
+</Memory>
+
+</Computer>

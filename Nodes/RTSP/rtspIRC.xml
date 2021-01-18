@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="rtspIRC"
+          name="Arachnid Private IRC Channel"
+          ip="55.159.154.12"
+          security="3"
+          type="4">
+
+<ports>22, 25, 80, 1433</ports>
+<portsForCrack val="4"/>
+<proxy time="1"/>
+<firewall level="-1"/>
+<trace time="-1"/>
+
+<dlink target="rtspAmon"/>
+<dlink target="rtspJared"/>
+<dlink target="rtspFlint"/>
+<dlink target="rtspLucy"/>
+
+<IRCDaemon themeColor="67,204,148" name="Arachnid" needsLogin="false">
+<user name="Amon" color="0,202,150"/>
+<user name="Jared" color="150,20,140"/>
+<user name="Flint" color="181,151,171"/>
+<user name="Lucy" color="29,15,251"/>
+
+<post user="Lucy">Jared shut up</post>
+<post user="Jared">What? Just giving my point of view.</post>
+<post user="Lucy">Not everyone watches the same things you do.</post>
+<post user="Amon">Sorry to interrupt you guys, who has the link to the whitelist server?</post>
+<post user="Flint">29.191.151.52, why?</post>
+<post user="Amon">I'm removing Jared from it until he shuts up.</post>
+<post user="Jared">Noooo I'm sorry!</post>
+<post user="Amon">Joke.</post>
+<post user="Amon">Just need to manage things for the boss.</post>
+</IRCDaemon>
+
+</Computer>

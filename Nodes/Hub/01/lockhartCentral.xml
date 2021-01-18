@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="lockhartCentral"
+          name="Lockhart News Mainframe"
+          security="4"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<ports>22, 25, 21, 80, 1433</ports>
+<portsForCrack val="4"/>
+<firewall level="-1"/>
+<proxy time="0.8"/>
+
+<file path="sys" name="Server_Runtime.dll">#BINARY#</file>
+
+</Computer>
+

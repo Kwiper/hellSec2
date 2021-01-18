@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="cocytusComp2"
+          name="Cocytus Laptop"
+          security="3"
+          type="4">
+
+<ports>22, 554, 80, 1433, 6881</ports>
+<portsForCrack val="5"/>
+<proxy time="1"/>
+<firewall level="-1"/>
+<trace time="200"/>
+
+<eosDevice name="Cocytus Spare ePhone" id="cocytusPhone2" icon="ePhone" empty="true" passOverride="alpine">
+<note>Main Phone
+Main phone pass is "Acheron" in case stoned me can't remember.</note>
+</eosDevice>
+
+</Computer>

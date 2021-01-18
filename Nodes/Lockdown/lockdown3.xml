@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="lockdown3"
+          name="Lockdown Hub Server"
+          security="5"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<ports>21, 22, 25, 80</ports>
+<portsForCrack val="4"/>
+<firewall level="6" solution="L0CKD0WN"/>
+<proxy time="-1"/>
+<trace time="-1"/>
+
+<file path="sys" name="Lockdown.dll">#BINARY#</file>
+
+</Computer>

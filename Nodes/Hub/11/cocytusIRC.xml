@@ -1,0 +1,43 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="cocytusIRC"
+          name="Team Tartarus Private IRC"
+          ip="151.251.25.216"
+          security="4"
+          type="4">
+
+<account username="Cocytus" password="33C920S" type="ADMIN"/>
+<ports>21, 22, 443, 6881</ports>
+<portsForCrack val="5"/>
+
+<dlink target="cocytusComp2"/>
+
+<IRCDaemon themeColor="67,204,148" name="Team Tartarus" needsLogin="false">
+<user name="Cocytus" color="14,180,245"/>
+<user name="Hades" color="100,100,100"/>
+<user name="Charon" color="160,20,15"/>
+<user name="Elysium" color="15,190,27"/>
+<user name="CHANNEL" color="155,155,0"/>
+
+<post user="Cocytus">guys, come on</post>
+<post user="Hades">Dude, we're sick of you</post>
+<post user="Hades">You keep missing practices</post>
+<post user="Charon">You've got that junkie thing going on</post>
+<post user="Cocytus">I'm not a junkie</post>
+<post user="Elysium">You once walked into the room high off your tits and proceeded to fondle the wheels of your chair.</post>
+<post user="Cocytus">That was one time</post>
+<post user="Charon">Dude, just admit it, you're into some shady shit now</post>
+<post user="Charon">we don't want any part of that</post>
+<post user="Hades">Pretty sure the police are onto you</post>
+<post user="Cocytus">I'm telling you guys, im fine</post>
+<post user="Elysium">you also went after Hades thinking he was the enemy</post>
+<post user="Elysium">during an *official match*</post>
+<post user="Cocytus">we still won though</post>
+<post user="Hades">Yeah, that's cuz I covered for you and carried our asses</post>
+<post user="Charon">You're a shitty captain</post>
+<post user="CHANNEL">User 'Charon' has left the server.</post>
+<post user="Hades">Go find another BoB team who can put up with your bullshit</post>
+<post user="CHANNEL">User 'Hades' has left the server.</post>
+<post user="CHANNEL">User 'Elysium' has left the server.</post>
+</IRCDaemon>
+
+</Computer>

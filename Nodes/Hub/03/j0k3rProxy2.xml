@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="j0k3rProxy2"
+          name="JK-Proxy_1940"
+          security="4"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<ports>21, 22, 25, 80, 1433</ports>
+<portsForCrack val="4"/>
+<firewall level="6" solution="ANARCHY"/>
+<proxy time="-1"/>
+<trace time="-1"/>
+<tracker/>
+
+<file path="home" name="Messages_to_leave.txt">If you're good at something, never do it for free.
+
+Introduce a little anarchy. Upset the established order, and everything becomes chaos. I'm an agent of chaos...
+
+The only sensible way to live in this world is without rules.
+
+As you know, madness is like gravity... all it takes is a little push.
+
+Have you ever danced with the devil in the pale moonlight?
+
+All it takes is one bad day.</file>
+
+<file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+<file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+<file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+
+</Computer>

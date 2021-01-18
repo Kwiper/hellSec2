@@ -1,0 +1,68 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="magMainframe"
+          name="MagRonald's Mainframe"
+          security="5"
+          type="4">
+
+<ports>21, 22, 25, 80, 1433</ports>
+<portsForCrack val="5"/>
+<proxy time="2"/>
+<firewall level="8" solution="MAGRONALDS"/>
+<trace time="150"/>
+
+<tracker/>
+
+<encryptedFile path="home" name="Ing_List_Ordering.dec" extension=".docx" ip="192.168.1.1" header="Ingredient List for Ordering">
+MAGRONALD'S INGREDIENT ORDERING GUIDELINES
+
+Facility: 100th Circles SW, Paterson, WA
+Product: Potatoes
+Unit Volume: 1kg
+Total Units: [UNIT_VOLUME_NEEDED]
+
+Facility: 100th Circles SW, Paterson, WA
+Product: Beef
+Unit Volume: 5kg
+Total Units: [UNIT_VOLUME_NEEDED]
+
+Facility: 100th Circles SW, Paterson, WA
+Product: Beef oil
+Unit Volume: 1kg
+Total Units: [UNIT_VOLUME_NEEDED]
+
+Facility: 228 Esperenza Rd., NM
+Product: Herb and Spice Mix
+Unit Volume: 1kg
+Total Units: [UNIT_VOLUME_NEEDED]
+    Product Production Guide: 
+        Formula --
+    16% | Paprika.
+    09% | Rubbed sage.
+    24% | Garlic powder.
+    28% | Allspice.
+    07% | Oregano.
+    16% | Marjoram. 
+
+Facility: 100th Circles SW, Paterson, WA
+Product: Chicken
+Unit Volume: 5kg
+Total Units: [UNIT_VOLUME_NEEDED]</encryptedFile>
+
+<encryptedFile path="home" name="Welcome_Email.dec" extension=".txt" ip="192.168.1.1" header="Welcome Email">
+$#$NAME$#$,
+
+We wholeheartedly welcome you to our MagRonald's Family!
+
+We offer fantastic job opportunities, a great working environment and of course employee benefits!
+Attached to this letter, you will find your shift hours and your discount card.
+
+Formal induction will happen on your first shift.
+
+-Management</encryptedFile>
+
+<encryptedFile path="home" name="MagRonalds_History.dec" extension=".docx" ip="192.168.1.1" header="MagRonald's History">
+MagRonald's was founded in 1939 by Magnus Ronald after he found out how to make fried potatoes taste addicting in a short period of time.
+Building on this premise, Ronald created a delicious menu of a "classic American meal" with one goal in mind: making the food as addicting as possible.
+Today, MagRonald's is a global juggernaut in the fast food industry, with thousands of branches around the globe. MagRonald's goal remains unchanged from Magnus Ronald's original dream.</encryptedFile>
+
+</Computer>

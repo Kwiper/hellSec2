@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="unityCore2"
+          name="Solidarity"
+          ip="251.22.43.127"
+          security="5"
+          type="4">
+
+<ports>21, 22, 25, 80, 1433, 443, 6881, 554</ports>
+<portsForCrack val="8"/>
+<proxy time="2"/>
+<firewall level="6" solution="INTEGRATION"/>
+<trace time="-1"/>
+
+<dlink target="unityCore1"/>
+<dlink target="unityCore3"/>
+
+<admin type="fast" resetPassword="true" isSuper="true"/>
+
+<file path="sys" name="Unity.dll">#BINARY#</file>
+<file path="sys" name="Unity.exe">#BINARY#</file>
+
+</Computer>

@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="prisonWhitelist"
+          name="Federal Prisons Bureau Whitelist Server"
+          ip="27.156.106.221"
+          security="5"
+          type="4">
+
+<ports>21, 25, 80, 443, 6881</ports>
+<portsForCrack val="5"/>
+<proxy time="3"/>
+<firewall level="6"/>
+<trace time="100"/>
+
+<WhitelistAuthenticatorDaemon SelfAuthenticating="false"/>
+
+</Computer>

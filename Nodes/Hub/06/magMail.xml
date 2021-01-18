@@ -1,0 +1,63 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="magMail"
+          name="MagRonald's Mail Server"
+          security="5"
+          type="4">
+
+<account username="CustomerService" password="MagRonalds123" type="2"/>
+<account username="MagIT" password="MagRonalds456" type="2"/>
+<account username="MagCEO" password="MagRonalds789" type="2"/>
+
+
+
+<ports>21, 22, 25, 80, 1433</ports>
+<portsForCrack val="5"/>
+<proxy time="-1"/>
+<firewall level="6"/>
+<trace time="-1"/>
+
+<mailServer name="MagRonald's" color="70,230,230">
+<email recipient="CustomerService" sender="Porter Liebwitz" subject="Question about the fries">
+Yo, Mag-R
+Why are your fries so damn addictive? Last month I was skinny as a twig, now I'm obese as fuck
+</email>
+<email recipient="CustomerService" sender="Lyra Teagan" subject="Health concerns">
+Dear MagRonald's,
+
+What do you put into your meat? I introduced my two year-old son to MagRonald's and he got a rash a couple days later.
+</email>
+<email recipient="CustomerService" sender="Justin Jackson" subject="Job Application">
+Hey MagRonald's.
+
+My name's Justin Jackson, I'm 16 years old and looking for a part-time job to earn some dough. Consider this my job application.
+So since job applications usually involve telling you my skills, I'm pretty good at basketball, I play rock guitar and I'm a damn good player in Haylo.
+
+You should hire me because I know I'll bring some pretty sweet shit to MagRonald's. Imagine this: Live performances while people order and eat their food. I could even volunteer to perform for the folks.
+
+I hope you guys accept this application. 
+
+Peace.</email>
+<email recipient="CustomerService" sender="Ingrid Earheart" subject="Question">
+Hi, MagRonald's,
+
+Is there a reason why you don't make high-quality chicken like Colonel's Food Corner?
+I'm very concerned about the quality of chicken I'm getting at your establishments.
+</email>
+
+<email recipient="MagIT" sender="DEC Customer Service" subject="File Encryption">
+To whom it may concern,
+
+Below is a link to all the tools you need for file encryption and decryption.
+
+Thank you for using DEC.
+
+-DEC Customer Service.
+
+142.52.156.37</email>
+<email recipient="MagIT" sender="MagCEO" subject="Website">
+Website looks crap.
+Make it better.
+</email>
+</mailServer>
+
+</Computer>

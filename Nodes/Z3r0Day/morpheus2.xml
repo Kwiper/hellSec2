@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="morpheus2"
+          name="MRPS_Reservoir_P99"
+          security="5"
+          type="4">
+
+<ports>21, 22, 25, 80, 1433, 443, 6881, 554, 192</ports>
+<portsForCrack val="9"/>
+<proxy time="2"/>
+<firewall level="6" solution="REALITY"/>
+<trace time="-1"/>
+
+<file path="sys" name="Remnant_M.dll">#BINARY#</file>
+<file path="sys" name="Remnant_M.exe">#BINARY#</file>
+<file path="sys" name="Remnant_M_API.dll">#BINARY#</file>
+<file path="sys" name="WebServer.dll">#BINARY#</file>
+<file path="sys" name="Remnant_M_Backup.exe">#BINARY#</file>
+
+</Computer>

@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="decRepo"
+          name="DEC Repository"
+          ip="142.52.156.37"
+          security="4"
+          type="4">
+
+<ports>21, 22, 25, 80, 1433, 443</ports>
+<portsForCrack val="4"/>
+<proxy time="2"/>
+<firewall level="-1"/>
+<trace time="150"/>
+
+<file path="bin" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+<file path="bin" name="DECHead.exe">#DECHEAD_PROGRAM#</file>
+<file path="bin" name="DECryption_Suite.txt">The DECryption Suite provides tools for decrypting files under the DEC Encryption Codec.
+
+Decypher will decrypt encrypted files. Some encrypted files may require passwords.
+Usage: Decypher [FILE_NAME] {PASSWORD}
+
+DECHead will provide information on an encrypted file, showing any headings and IPs.
+Usage: DECHead [FILE_NAME]</file>
+
+</Computer>

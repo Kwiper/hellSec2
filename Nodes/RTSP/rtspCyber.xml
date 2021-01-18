@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="rtspCyber"
+          name="Arachnid Cyber Solutions"
+          security="4"
+          type="4">
+
+<ports>21, 22, 25, 80, 1433, 443, 6881</ports>
+<portsForCrack val="7"/>
+<proxy time="-1"/>
+<firewall level="6"/>
+<trace time="150"/>
+
+<dlink target="rtspDatabase"/>
+
+<LogoDaemon Name="Arachnid Cyber Solutions" ShowsTitle="true" TextColor="150, 80, 24, 200">
+Tools you need. Tools you can trust.
+</LogoDaemon>
+
+</Computer>
+
+

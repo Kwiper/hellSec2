@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="unityH3l1x"
+          name="Unity Proxy Node D-238"
+          ip="225.13.263.25"
+          security="5"
+          type="4">
+
+<ports>21, 22, 25, 80, 1433, 443, 6881</ports>
+<portsForCrack val="7"/>
+<proxy time="2"/>
+<firewall level="-1"/>
+
+<dlink target="unityETAS3"/>
+
+<file path="bin" name="OpShell.exe">#SHELL_OPENER_EXE#</file>
+
+</Computer>

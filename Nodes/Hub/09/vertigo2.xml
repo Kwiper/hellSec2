@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="vertigo2"
+          name="XXXXXX"
+          security="5"
+          icon="laptop"
+          type="1">
+
+<ports>21, 22, 25, 80, 443, 6881</ports>
+<portsForCrack val="6"/>
+<trace time="100"/>
+<proxy time="1"/>
+<firewall time="-1"/>
+<dlink target="vertigoIRC"/>
+
+<file path="home" name="Vertigo.zip">#BINARY#</file>
+
+<customthemefile path="sys" name="Neo_Tokyo_x-server.sys" themePath="Themes/NeoTokyoTheme.xml"/>
+
+</Computer>

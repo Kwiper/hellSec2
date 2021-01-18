@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="magWeb"
+          name="MagRonald's Web Server"
+          security="4"
+          type="4">
+
+<adminPass pass="GreatMag"/>
+
+<ports>21, 22, 25, 80, 1433</ports>
+<portsForCrack val="5"/>
+<proxy time="-1"/>
+<firewall level="7" solution="GREATMAG"/>
+<trace time="-1"/>
+
+<dlink target="magMainframe"/>
+<dlink target="magMail"/>
+
+<addWebServer name="MagRonald's"
+              url="Web/MagRonalds.html"/>
+
+</Computer>

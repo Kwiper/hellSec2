@@ -1,0 +1,76 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="credits"
+          name="Credits Server"
+          ip="167.194.132.7"
+          security="1"
+          allowsDefaultBootModule="true"
+          type="4" >
+
+<adminPass pass="credits" />
+<ports>21, 22</ports>
+<portsForCrack val="1" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<file path="home" name="CreditsData.txt">
+%--- hellSec 2 ---
+
+%Created by
+^Kwiper
+
+%Story by
+^Kwiper
+
+
+
+%--- Music ---
+
+^Magic Sword
+In the Face of Evil
+
+^Turboslash
+Rush
+Memory Reset
+
+^Carpenter Brut
+Sexkiller On The Loose
+Run, Sally, Run!
+
+^Dance With The Dead
+Get Out
+Diabolic
+
+^Scandroid
+Neo-Tokyo (Dance With The Dead Remix) [INSTRUMENTAL]
+
+^Chance
+Metamorphose
+Chansu
+
+^Remi Gallego
+Panic Track
+Userspacelike
+
+^HOME
+Chemical Burns
+
+^Kwiper
+Gotta Dash
+
+
+
+%--- Special Thanks ---
+
+The Rhythm Thief - Your support has been fantastic.
+The IB Program - Not a person, but this stressful shit gave me motivation somehow.
+Spiderbenb - Keep on streaming!
+Serja and Fayti1703 - Finding some key issues on the day of launch.
+Matt Trobbiani - Creator of Hacknet.
+
+%THANKS FOR PLAYING
+
+%THE END?
+</file>
+
+<CreditsDaemon Title="hellSec 2 Credits" ButtonText="End" ConditionalActionSetToRunOnButtonPressPath="Actions/CreditsActions.xml"/>
+
+</Computer>

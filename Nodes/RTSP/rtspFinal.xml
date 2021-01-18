@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="rtspFinal"
+          name="3725 Development Hub"
+          ip="24.124.53.27"
+          security="5"
+          type="4">
+        
+
+<ports>21, 22, 25, 80, 1433, 6881, 443</ports>
+<portsForCrack val="6"/>
+<trace time="150"/>
+
+<encryptedFile path="bin" name="RTSPCrack.dec" extension=".exe" ip="192.168.1.1" header="RTSPCrack" pass="Ck832LoZn14">#RTSP_EXE#</encryptedFile>
+
+<WhitelistAuthenticatorDaemon Remote="rtspWhitelist"/>
+
+</Computer>

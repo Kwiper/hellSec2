@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="j0k3rComp"
+          name="J0k3r Battlestation"
+          security="4"
+          allowsDefaultBootModule="true"
+          icon="DLCLaptop"
+          type="4">
+
+<ports>21, 22, 25, 80, 1433</ports>
+<portsForCrack val="4"/>
+<proxy time="1"/>
+<firewall level="-1"/>
+<portRemap>21=24,22=35,25=100,80=8080,1433=133</portRemap>
+<tracker />
+
+<dlink target="j0k3rProxy1"/>
+
+<file path="home" name="Targets.txt">MagRonald's - TO DO
+Danton Enterprises - DONE
+Macrosoft - DONE
+ZERN - TO DO
+HexArc - TO DO</file>
+
+<file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+<file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+<file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+<file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+<file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+
+<customthemefile path="sys" name="Paradox_x-server.sys" themePath="Themes/ParadoxTheme.xml"/>
+
+<CustomConnectDisplayDaemon />
+
+</Computer>
+

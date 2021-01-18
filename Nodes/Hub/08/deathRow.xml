@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="deathRow"
+          name="Universal Death Row Database"
+          security="5"
+          type="4">
+
+<ports>21, 25, 80, 1433, 443, 6881</ports>
+<portsForCrack val="6"/>
+<proxy time="2"/>
+<firewall level="8"/>
+
+<deathRowDatabase/>
+
+</Computer>

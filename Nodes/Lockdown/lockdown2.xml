@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="lockdown2"
+          name="Proxy Node LD-36"
+          security="4"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<ports>21, 22, 25, 80</ports>
+<portsForCrack val="4"/>
+<firewall level="-1"/>
+<proxy time="-1"/>
+<trace time="-1"/>
+
+<dlink target="lockdown3"/>
+
+</Computer>

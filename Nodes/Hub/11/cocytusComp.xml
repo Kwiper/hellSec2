@@ -1,0 +1,100 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="cocytusComp"
+          name="Cocytus Battlestation"
+          security="5"
+          type="4">
+
+<ports>80, 25, 443, 1433, 6881, 554</ports>
+<portsForCrack val="6"/>
+<proxy time="2"/>
+<firewall level="-1"/>
+<trace time="140"/>
+
+<dlink target="cocytusIRC"/>
+
+<Memory>
+<Commands>
+<Command>connect 151.251.25.216</Command>
+<Command>login</Command>
+<Command>Cocytus</Command>
+<Command>password</Command>
+<Command>33C920S</Command>
+</Commands>
+</Memory>
+
+<eosDevice name="Cocytus ePhone 7X" id="cocytusPhone" icon="ePhone2" empty="false" passOverride="Acheron">
+<file path="eos/sms" name="sms_log_251.dat">****************SMS Log History****************
+Phone Number:--- 225191392X
+Message Date:--- Sun May 06 14:02:51 GMT 201X
+Message Body:--- Hey
+---------------------------------------------
+Phone Number:--- 225142931X
+Message Date:--- Sun May 06 14:03:03 GMT 201X
+Message Body:--- You got the goods?
+---------------------------------------------
+Phone Number:--- 225191392X
+Message Date:--- Sun May 06 14:03:52 GMT 201X
+Message Body:--- yes
+---------------------------------------------
+Phone Number:--- 225191392X
+Message Date:--- Sun May 06 14:04:59 GMT 201X
+Message Body:--- where we meeting?
+---------------------------------------------
+Phone Number:--- 225142931X
+Message Date:--- Sun May 06 14:06:12 GMT 201X
+Message Body:--- Alley behind building 350 on 5th Ave.
+---------------------------------------------
+Phone Number:--- 225142931X
+Message Date:--- Sun May 06 14:06:56 GMT 201X
+Message Body:--- Be there by 3PM sharp on Wednesday. My guys won't appreciate it if you're late.
+---------------------------------------------</file>
+<file path="eos/sms" name="sms_log_301.dat">****************SMS Log History****************
+Phone Number:--- 225191392X
+Message Date:--- Mon May 07 09:24:15 GMT 201X
+Message Body:--- babe
+---------------------------------------------
+Phone Number:--- 225191392X
+Message Date:--- Mon May 07 09:25:12 GMT 201X
+Message Body:--- babe you there?
+---------------------------------------------
+Phone Number:--- 225191392X
+Message Date:--- Mon May 07 09:25:12 GMT 201X
+Message Body:--- !ATTACHMENT:38hf2915e.png
+---------------------------------------------
+Phone Number:--- 225161192X
+Message Date:--- Mon May 07 09:26:14 GMT 201X
+Message Body:--- Got the wrong number, hun. Thanks for the dick pic, though.
+---------------------------------------------</file>
+<file path="eos/sms" name="sms_log_312.dat">
+****************SMS Log History****************
+Phone Number:--- [BLOCKED NUMBER]
+Message Date:--- Tue May 08 14:00:00 GMT 201X
+Message Body:--- {Heyyyy|Hiya}{!|...} {how|How} {are you|r u} doing today{??|?|???}
+---------------------------------------------
+Phone Number:--- 225191392X
+Message Date:--- Tue May 08 14:01:12 GMT 201X
+Message Body:--- piss off, bot
+---------------------------------------------</file>
+<file path="eos/sms" name="sms_log_314.dat">
+****************SMS Log History****************
+Phone Number:--- [BLOCKED NUMBER]
+Message Date:--- Tue May 08 16:29:15 GMT 201X
+Message Body:--- Congratulations! You are one of the lucky few chosen to win an all-expenses paid trip to the Maldives. To claim your prize, please fill in the form provided here:
+www.m41d.so
+YOU ARE A WINNER!
+---------------------------------------------
+Phone Number:--- 225191392X
+Message Date:--- Tue May 08 16:58:12 GMT 201X
+Message Body:--- tell me honestly, no lies
+---------------------------------------------
+Phone Number:--- 225191392X
+Message Date:--- Tue May 08 16:58:33 GMT 201X
+Message Body:--- are you some somalian guy trying to scam me, or am I really winning a trip to the Maldives
+---------------------------------------------
+Phone Number:--- [BLOCKED NUMBER]
+Message Date:--- Tue May 08 16:59:21 GMT 201X
+Message Body:--- scam
+---------------------------------------------</file>
+</eosDevice>
+
+</Computer>
