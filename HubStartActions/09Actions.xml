@@ -1,0 +1,9 @@
+<ConditionalActions>
+
+<Instantly>
+<AddAsset FileName="MemForensics.exe" FileContents="#MEM_FORENSICS_EXE#" TargetComp="hellDrop" TargetFolderpath="bin"/>
+<AddAsset FileName="MemDumpGenerator.exe" FileContents="#MEM_DUMP_GENERATOR#" TargetComp="hellDrop" TargetFolderpath="bin"/>
+
+</Instantly>
+
+</ConditionalActions>

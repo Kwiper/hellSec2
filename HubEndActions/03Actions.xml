@@ -1,0 +1,10 @@
+<ConditionalActions>
+
+<Instantly>
+<RunFunction FunctionName="addRank" FunctionValue="10"/>
+<RunFunction FunctionName="addFlags:03,SQL1,SQL2,SQL3"/>
+<AddAsset FileName="SQLBufferOverflow.exe" FileContents="#SQL_CRACK#" TargetComp="hellDrop" TargetFolderpath="bin"/>
+
+</Instantly>
+
+</ConditionalActions>

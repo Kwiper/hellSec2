@@ -1,0 +1,13 @@
+<ConditionalActions>
+
+<Instantly>
+<RunFunction FunctionName="addRank" FunctionValue="10"/>
+<RunFunction FunctionName="addFlags:06,DEC"/>
+<RunFunction FunctionName="removeFlags:SQL3"/>
+
+<AddAsset FileName="DECHead.exe" FileContents="#DECHEAD_PROGRAM#" TargetComp="hellDrop" TargetFolderpath="bin" />
+<AddAsset FileName="Decypher.exe" FileContents="#DECYPHER_PROGRAM#" TargetComp="hellDrop" TargetFolderpath="bin" />
+
+</Instantly>
+
+</ConditionalActions>

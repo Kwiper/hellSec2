@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="hub03" activeCheck="false" shouldIgnoreSenderVerification="false">
+
+<goals>
+<goal type="clearfolder" target="j0k3rComp" path="home"/>
+<goal type="clearfolder" target="j0k3rComp" path="bin"/>
+<goal type="clearfolder" target="j0k3rComp" path="sys"/>
+<goal type="clearfolder" target="j0k3rProxy1" path="home"/>
+<goal type="clearfolder" target="j0k3rProxy1" path="bin"/>
+<goal type="clearfolder" target="j0k3rProxy1" path="sys"/>
+<goal type="clearfolder" target="j0k3rProxy2" path="home"/>
+<goal type="clearfolder" target="j0k3rProxy2" path="bin"/>
+<goal type="clearfolder" target="j0k3rProxy2" path="sys"/>
+</goals>
+
+<missionStart suppress="true">loadConditionalActions:HubStartActions/03Actions.xml</missionStart>
+<missionEnd>loadConditionalActions:HubEndActions/03Actions.xml</missionEnd>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Madhouse" reqs="01, 02">
+A rogue hacker has recently been wreaking havoc throughout the web. We want you to take him down.</posting>
+
+<email>
+<sender>Quartz</sender>
+<subject>Madhouse</subject>
+<body>#PLAYERNAME#,
+I would say hellSec has done well to maintain its image of being an ethical hacker group. We do good in the world. We even stopped a plot that would render security worthless.
+Not that we've been thanked for it. We got condemned by the government, even.
+Anyhow, there are some people out there who just want to watch the world burn. I am of course referring to the so-called "blackhat" hackers.
+
+Recently, there has been one particular person who's gone off the deep end, causing havoc wherever he goes. He goes by the handle J0k3r. And he's good at his job. One might say he's an agent of chaos.
+Your job is to take down J0k3r. Infiltrate his systems, and delete EVERYTHING. You may also want to watch out for any trackers.
+
+Good luck,
+-Quartz
+</body>
+<attachments>
+<note title="Mission Details">Infiltrate J0k3r's systems
+Delete everything</note>
+<link comp="j0k3rComp"/>
+</attachments>
+</email>
+</mission>

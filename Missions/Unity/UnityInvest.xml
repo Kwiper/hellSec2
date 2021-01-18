@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="unityInvest" activeCheck="true">
+
+<goals>
+<goal type="fileupload" target="hellDrop" file="unity.txt" path="home" destTarget="hellDrop" destPath="Drop/Uploads"/>
+<goal type="fileupload" target="hellDrop" file="unity_manifesto.txt" path="home" destTarget="hellDrop" destPath="Drop/Uploads"/>
+<goal type="delay" time="2.0"/>
+</goals>
+
+<missionEnd>loadConditionalActions:Actions/CoreJoinActions.xml</missionEnd>
+
+<nextMission IsSilent="true">NONE</nextMission>
+
+<email>
+<sender>Kwiper</sender>
+<subject>ERROR</subject>
+<body>If you're seeing this, shit's broken. Better run before things blow up.</body>
+<attachments>
+</attachments>
+</email>
+</mission>

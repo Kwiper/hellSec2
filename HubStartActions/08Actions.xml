@@ -1,0 +1,9 @@
+<ConditionalActions>
+
+<Instantly>
+<AddAsset FileName="TorrentStreamInjector.exe" FileContents="#TORRENT_EXE#" TargetComp="hellDrop" TargetFolderpath="bin" />
+<CopyAsset DestFilePath="dr_database/records" DestComp="deathRow" SourceComp="cheat" SourceFileName="Acasio_Jamie[99942]" SourceFilePath="home"/>
+<DeleteFile TargetComp="cheat" FilePath="home" FileName="Acasio_Jamie[99942]" DelayHost="cheat" Delay="0.1"/>
+</Instantly>
+
+</ConditionalActions>

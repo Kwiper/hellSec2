@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="transitionMission" activeCheck="true">
+
+<goals>
+</goals>
+
+<nextMission IsSilent="true">NONE</nextMission>
+
+<email>
+<sender>Kwiper</sender>
+<subject>ERROR</subject>
+<body>Why do I bother doing this?</body>
+<attachments>
+</attachments>
+</email>
+
+</mission>

@@ -1,0 +1,8 @@
+<ConditionalActions>
+
+<Instantly>
+<CopyAsset DestFilePath="home" DestComp="hellDrop" SourceComp="cheat" SourceFileName="Stanford_Mark_Job_Application.docx" SourceFilePath="home"/>
+<DeleteFile TargetComp="cheat" FilePath="home" FileName="Stanford_Mark_Job_Application.docx" DelayHost="cheat" Delay="0.1"/>
+</Instantly>
+
+</ConditionalActions>

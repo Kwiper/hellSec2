@@ -1,0 +1,10 @@
+<ConditionalActions>
+
+<Instantly>
+<RunFunction FunctionName="addRank" FunctionValue="10"/>
+<RunFunction FunctionName="addFlags:04"/>
+<RunFunction FunctionName="removeFlags:SQL1"/>
+
+</Instantly>
+
+</ConditionalActions>

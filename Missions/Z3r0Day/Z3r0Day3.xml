@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="z3r0Day3" activeCheck="true" shouldIgnoreSenderVerification="false">
+
+<goals>
+<goal type="clearfolder" target="morpheus2" path="sys"/>
+</goals>
+
+<missionEnd>loadConditionalActions:Actions/Z3r0DaySuccessActions.xml</missionEnd>
+
+<nextMission IsSilent="true">Missions/Z3r0Day/Z3r0DayFinal.xml</nextMission>
+
+<email>
+<sender>Z3r0</sender>
+<subject>ERROR</subject>
+<body>:}</body>
+<attachments>
+</attachments>
+</email>
+
+</mission>

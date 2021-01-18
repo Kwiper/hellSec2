@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="hub09" activeCheck="false" shouldIgnoreSenderVerification="false">
+
+<goals>
+<goal type="filedeletion" target="vertigo1" file="Vertigo.zip" path="home"/>
+<goal type="filedeletion" target="vertigo2" file="Vertigo.zip" path="home"/>
+</goals>
+
+<missionStart suppress="true">loadConditionalActions:HubStartActions/09Actions.xml</missionStart>
+<missionEnd>loadConditionalActions:HubEndActions/09Actions.xml</missionEnd>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Deal With the Devil" reqs="07, 08">
+Someone has recently gotten scammed on the black market. They have asked us to trace the scammer and rectify things.
+</posting>
+
+<email>
+<sender>Quartz</sender>
+<subject>Deal With the Devil</subject>
+<body>Alright, #PLAYERNAME#,
+This client got scammed by someone on the black market. They've asked us to trace the guy and erase what he took off of the client.
+The item is in a .zip file, and it's called "Vertigo"
+Apparently this guy runs a message board where people go to put in requests. You should be able to trace him from there.
+I've uploaded two new programs for you to use to the drop server. They should help you in finding this guy.
+
+Happy hunting,
+-Quartz</body>
+<attachments>
+<note title="Mission Details">Trace the client's scammer
+Delete a .zip file pertaining to "Vertigo"</note>
+<link comp="blackMarket"/>
+</attachments>
+</email>
+</mission>

@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="prisonMission" activeCheck="true" shouldIgnoreSenderVerification="false">
+
+<goals>
+<goal type="fileupload" target="hellDrop" file="Offline_Sequencer.rar" path="home" destTarget="hellDrop" destPath="Drop/Uploads"/>
+</goals>
+
+<missionEnd>loadConditionalActions:Actions/PreSequencerActions.xml</missionEnd>
+
+<nextMission IsSilent="true">NONE</nextMission>
+
+<email>
+<sender>Kwiper</sender>
+<subject>ERROR</subject>
+<body>If you're reading this, shit happened, everything went wrong, panic, call 911.</body>
+<attachments>
+</attachments>
+</email>
+
+</mission>

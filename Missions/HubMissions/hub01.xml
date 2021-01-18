@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="hub01" activeCheck="false" shouldIgnoreSenderVerification="false">
+
+<goals>
+<goal type="clearfolder" target="lockhartCentral" path="sys"/>
+</goals>
+
+<missionStart suppress="true">loadConditionalActions:HubStartActions/01Actions.xml</missionStart>
+<missionEnd>loadConditionalActions:HubEndActions/01Actions.xml</missionEnd>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Cognitive Dissonance">
+A news organization famous for spreading fake news has recently taken things too far. Your job is to take them down.
+</posting>
+
+<email>
+<sender>Quartz</sender>
+<subject>Cognitive Dissonance</subject>
+<body>#PLAYERNAME#,
+I'm sure you've heard of Lockhart News. They're quite famous, well, infamous, for being the number one source of false information.
+Problem is, of course, it's not satire. And people buy into this stuff. Obviously, fake news is an issue everywhere, but recently, Lockhart has taken things quite far.
+Their influence on people is scary.
+Your job is shut down Lockhart, at least until they learn their lesson. I'll link you to Lockhart's news site. Find your way to their central server, delete their /sys folder.
+Happy hunting,
+-Quartz</body>
+<attachments>
+<note title="Mission Details">Connect to Lockhart News
+Find the central server
+Delete /sys folder</note>
+<link comp="lockhartNews"/>
+</attachments>
+</email>
+</mission>

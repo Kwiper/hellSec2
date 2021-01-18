@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="DHSJoin" activeCheck="true">
+
+<goals>
+</goals>
+
+<missionEnd>loadConditionalActions:Actions/DHSJoinActions.xml</missionEnd>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<email>
+<sender>Quartz</sender>
+<subject>Aftermath Contd.</subject>
+<body>Hey,
+Looks like you found who did the attack. Unity, huh? Never heard of them.
+I've gotten hellSec back up and running. H3l1x is already waiting.
+
+-Quartz</body>
+<attachments>
+<link comp="hellDHS"/>
+</attachments>
+</email>
+</mission>

@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="unityH3l1x" activeCheck="true">
+
+<goals>
+</goals>
+
+<nextMission IsSilent="true">NONE</nextMission>
+
+<posting title="Gathering Intel - H3l1x">
+Find some much-needed information to take down Unity.
+</posting>
+
+<email>
+<sender>Z3r0</sender>
+<subject>Gathering Intel</subject>
+<body>You shouldn't be seeing this.</body>
+<attachments>
+</attachments>
+</email>
+
+</mission>

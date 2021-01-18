@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="unityFinal" activeCheck="true">
+
+<goals>
+<goal type="clearfolder" target="unityCore1" path="sys"/>
+<goal type="clearfolder" target="unityCore2" path="sys"/>
+<goal type="clearfolder" target="unityCore3" path="sys"/>
+</goals>
+
+<missionEnd>loadConditionalActions:Actions/EndActions.xml</missionEnd>
+
+<nextMission IsSilent="true">NONE</nextMission>
+
+<email>
+<sender>Kwiper</sender>
+<subject>ERROR</subject>
+<body>It's the final countdown
+dududu du
+dududududu
+dududu du
+dududududududu 
+dududu du
+dududududu
+dudududu
+dududududududu
+dududu
+dududududududu du du
+dududududuuuuuu</body>
+<attachments>
+</attachments>
+</email>
+</mission>

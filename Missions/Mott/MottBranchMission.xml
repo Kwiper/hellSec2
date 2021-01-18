@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="mottBranchMission" activeCheck="true" shouldIgnoreSenderVerification="true">
+
+<goals>
+<goal type="getstring" target="no"/>
+</goals>
+
+<missionEnd>loadConditionalActions:Actions/MottActions.xml</missionEnd>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<email>
+<sender>Mott</sender>
+<subject>Secret</subject>
+<body>:}</body>
+<attachments>
+</attachments>
+</email>
+
+</mission>

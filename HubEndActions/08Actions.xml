@@ -1,0 +1,9 @@
+<ConditionalActions>
+
+<Instantly>
+<RunFunction FunctionName="addRank" FunctionValue="10"/>
+<RunFunction FunctionName="addFlags:08,Torrent"/>
+<RunFunction FunctionName="removeFlags:SSL2"/>
+</Instantly>
+
+</ConditionalActions>

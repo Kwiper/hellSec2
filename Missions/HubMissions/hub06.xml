@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="hub06" activeCheck="false" shouldIgnoreSenderVerification="false">
+
+<goals>
+<goal type="fileupload" target="hellDrop" file="Ing_List_Ordering.docx" path="home" destTarget="hellDrop" destPath="Drop/Uploads"/>
+</goals>
+
+<missionStart suppress="true">loadConditionalActions:HubStartActions/06Actions.xml</missionStart>
+<missionEnd>loadConditionalActions:HubEndActions/06Actions.xml</missionEnd>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Secret Ingredients" reqs="03">
+Someone has asked us to find a famous fast food restaurant's secret ingredient list.
+</posting>
+
+<email>
+<sender>Quartz</sender>
+<subject>Secret Ingredients</subject>
+<body>Alright, #PLAYERNAME#,
+This client's asked us for a strange one, but to be honest, I'm quite curious myself.
+You heard about how CFC's secret ingredients list got leaked? Well, this time we're going after famous fast food chain MagRonald's.
+Your job is to investigate MagRonald's and find their list of ingredients. Once you find it, upload it to the drop server.
+
+This is making me hungry.
+-Quartz</body>
+<attachments>
+<note title="Mission Details">Investigate MagRonald's
+Find their secret ingredients list
+Upload to drop server</note>
+<link comp="magWeb"/>
+</attachments>
+</email>
+</mission>

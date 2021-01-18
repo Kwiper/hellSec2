@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="unityETAS" activeCheck="true">
+
+<goals>
+<goal type="delay" time="1000"/>
+</goals>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<email>
+<sender>Quartz</sender>
+<subject>Going Forward</subject>
+<body>#PLAYERNAME#
+Please return to hellSec ASAP. I've got an important announcement to make.</body>
+<attachments>
+</attachments>
+</email>
+</mission>

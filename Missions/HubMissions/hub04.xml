@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="hub04" activeCheck="false" shouldIgnoreSenderVerification="false">
+
+<goals>
+<goal type="wipedegrees" owner="Trenton Riker"/>
+</goals>
+
+<missionStart suppress="true">loadConditionalActions:HubStartActions/04Actions.xml</missionStart>
+<missionEnd>loadConditionalActions:HubEndActions/04Actions.xml</missionEnd>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Off The Grid" reqs="03">
+Someone has requested that we clear their academic records.
+</posting>
+
+<email>
+<sender>Quartz</sender>
+<subject>Off The Grid</subject>
+<body>Alright, #PLAYERNAME#.
+A client wants us to remove all traces of their academic records. Seems they want to just disappear.
+Can't say I blame them. There are times when I want to go off the grid.
+Anyways, the client's name is Trenton Riker. I'll link you to the Academic Archives.
+Find some way to access the archives. Delete Trenton Riker's academic records.
+
+-Quartz</body>
+<attachments>
+<note title="Mission Details">Access the Academic Archives
+Erase all of Trenton Riker's records</note>
+<link comp="academic"/>
+</attachments>
+</email>
+</mission>

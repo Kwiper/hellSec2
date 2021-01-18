@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="hub12" activeCheck="false" shouldIgnoreSenderVerification="false">
+
+<goals>
+<goal type="getstring" target="VFS-1921-H31" />
+</goals>
+
+<missionStart suppress="true">loadConditionalActions:HubStartActions/12Actions.xml</missionStart>
+<missionEnd>loadConditionalActions:HubEndActions/12Actions.xml</missionEnd>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Cryptocurrency" reqs="01, 02, 03, 04, 05, 06, 07, 08, 09">
+A client has asked us to find the transaction number of a Bytecoin transfer he made.
+</posting>
+
+<email>
+<sender>Quartz</sender>
+<subject>Cryptocurrency</subject>
+<body>#PLAYERNAME#,
+A client has asked us to track down the transaction number of a Bytecoin transfer he made. Apparently he's having second thoughts transferring the coin.
+They've linked us to the Bytecoin wallet service they used. They go by the handle Connect.
+Find Connect's transaction number. Apparently it was the only transaction he's ever made. Reply here with the number.
+
+-Quartz</body>
+<attachments>
+<note title="Mission Details">Find Connect's transaction number
+Reply with number</note>
+<link comp="cryptoByte"/>
+</attachments>
+</email>
+</mission>

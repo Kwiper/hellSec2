@@ -1,0 +1,12 @@
+<ConditionalActions>
+
+<Instantly>
+<RunFunction FunctionName="addRank" FunctionValue="10"/>
+<RunFunction FunctionName="addFlags:07,EOS"/>
+<RunFunction FunctionName="removeFlags:SSL1,DEC"/>
+
+<AddAsset FileName="eosDeviceScan.exe" FileContents="#EOS_SCANNER_EXE#" TargetComp="hellDrop" TargetFolderpath="bin" />
+
+</Instantly>
+
+</ConditionalActions>

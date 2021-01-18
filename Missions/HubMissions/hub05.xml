@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="hub05" activeCheck="false" shouldIgnoreSenderVerification="false">
+
+<goals>
+<goal type="clearfolder" target="facenookDatabase" path="Users/Heathcliffe_Riley/Posts"/>
+</goals>
+
+<missionStart suppress="true">loadConditionalActions:HubStartActions/05Actions.xml</missionStart>
+<missionEnd>loadConditionalActions:HubEndActions/05Actions.xml</missionEnd>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Revenge Porn" reqs="03">
+Someone has asked us remove all traces of their nudes from the Internet.
+</posting>
+
+<email>
+<sender>Quartz</sender>
+<subject>Revenge Porn</subject>
+<body>#PLAYERNAME#,
+It should go without saying that revenge porn is not ok. It's a huge breach of privacy, and people should only share their nudes or sex tapes when they want to.
+A client has contacted us with this very issue. After a nasty breakup, the client's ex-boyfriend posted images of her nude on Facenook. She's asked us to access his Facenook and delete every single one of those images.
+Her ex-boyfriend's name is Riley Heathcliffe
+This is a pretty serious matter.
+
+Good luck,
+-Quartz</body>
+<attachments>
+<note title="Mission Details">Access Facenook
+Find their central server
+Delete all images on Riley Heathcliffe's account</note>
+<link comp="facenookWeb"/>
+</attachments>
+</email>
+</mission>

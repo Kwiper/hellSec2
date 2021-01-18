@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="prisonBreakMission" activeCheck="true">
+
+<goals>
+<goal type="filedeletion" target="prisonBreak" file="Security.dll" path="Security/Z3r0"/>
+</goals>
+
+<missionEnd>loadConditionalActions:Actions/SequenceSuccessActions.xml</missionEnd>
+<nextMission IsSilent="true">NONE</nextMission>
+
+<email>
+<sender>Kwiper</sender>
+<subject>ERROR</subject>
+<body>If you're reading this, well, you know the drill.</body>
+<attachments>
+</attachments>
+</email>
+
+</mission>

@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="startingMission" activeCheck="true" shouldIgnoreSenderVerification="false">
+
+<goals>
+<goal type="filedeletion" target="lockdown3" file="Lockdown.dll" path="sys"/>
+</goals>
+
+<missionEnd>loadConditionalActions:Actions/TitleActions.xml</missionEnd>
+
+<nextMission IsSilent="true">NONE</nextMission>
+
+<email>
+<sender>Your Best Friend</sender>
+<subject>ERROR</subject>
+<body>You should not be seeing this.
+If you do see this, then things are broken and you should probably panic and contact me.
+
+Have a nice day!
+
+-Kwiper</body>
+<attachments>
+</attachments>
+</email>
+</mission>

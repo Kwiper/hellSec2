@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="welcomeMission" activeCheck="true" shouldIgnoreSenderVerification="false">
+
+<goals>
+<goal type="delay" time="1000.0"/>
+</goals>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<branchMissions>
+<branch>Missions/Mott/MottBranchMission.xml</branch>
+</branchMissions>
+
+<email>
+<sender>Quartz</sender>
+<subject>Welcome Back</subject>
+<body>Hello, #PLAYERNAME#.
+It would seem like the jailbreak was a success. You can thank the government for the lockdown. You can also thank them for your missing tools.
+It's been a year since the incident with Z3r0 and Project M. I think it's high time we got the group back together, yes?
+
+You know the drill. I've linked everything below.
+hellSec is back in business.
+
+-Quartz</body>
+<attachments>
+
+<link comp="hellIRC" />
+<link comp="hellHub" />
+<link comp="hellDrop" />
+<account comp="hellDrop" user="admin" pass="pentacle" />
+
+</attachments>
+</email>
+</mission>

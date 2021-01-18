@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="hub07" activeCheck="false" shouldIgnoreSenderVerification="false">
+
+<goals>
+<goal type="getstring" target="caligula"/>
+</goals>
+
+<missionStart suppress="true">loadConditionalActions:HubStartActions/07Actions.xml</missionStart>
+<missionEnd>loadConditionalActions:HubEndActions/07Actions.xml</missionEnd>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Productivity" reqs="05, 06">
+A client has asked us to give them someone's email password.</posting>
+
+<email>
+<sender>Quartz</sender>
+<subject>Productivity</subject>
+<body>#PLAYERNAME#,
+A company that specializes in security software development has requested that we find the email password of one of their employees.
+They are worried that she is engaging in... questionable activities, and it is affecting her productivity.
+They have provided a link to the employee's workstation. I will also give you a link to the company's web server.
+
+Good luck,
+-Quartz</body>
+<attachments>
+<note title="Mission Details">Access the employee's workstation
+Somehow find her email password</note>
+<link comp="erinComp"/>
+<link comp="hexarcWeb"/>
+</attachments>
+</email>
+</mission>

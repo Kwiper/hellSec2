@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="unityETASAftermath" activeCheck="true">
+
+<goals>
+<goal type="getadmin" target="unityETAS3"/>
+<goal type="delay" time="2.5"/>
+</goals>
+
+<nextMission IsSilent="false">Missions/Misc/DHSJoin.xml</nextMission>
+
+<email>
+<sender>Quartz</sender>
+<subject>Aftermath</subject>
+<body>Well...
+Looks like whoever targeted us also destroyed the main hellSec nodes.
+
+I've already checked in with H3l1x, he's doing fine.
+
+I'll work on getting hellSec back up and running.
+
+You look through your logs and try to track down whoever did this.
+
+-Quartz</body>
+<attachments>
+</attachments>
+</email>
+</mission>

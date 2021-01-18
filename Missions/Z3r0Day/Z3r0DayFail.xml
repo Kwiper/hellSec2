@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="z3r0DayFail" activeCheck="true" shouldIgnoreSenderVerification="false">
+
+<goals>
+</goals>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<email>
+<sender>Z3r0</sender>
+<subject>Z3r0 Day - End</subject>
+<body>That must have caught you off guard.
+Don't worry about it, you were unprepared. I took him down for you. And took down the rest of his network. I don't think he'll be able to bring back Project M after this.
+While I was dealing with the last of his nodes, I stumbled upon something interesting that you may like. I'll link it to you in this email.
+
+Till next time,
+-Z3r0</body>
+<attachments>
+<link comp="morpheus3"/>
+</attachments>
+</email>
+</mission>

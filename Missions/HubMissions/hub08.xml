@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="hub08" activeCheck="false" shouldIgnoreSenderVerification="false">
+
+<goals>
+<goal type="filedeletion" target="deathRow" file="Acasio_Jamie[99942]" path="dr_database/records"/>
+</goals>
+
+<missionStart suppress="true">loadConditionalActions:HubStartActions/08Actions.xml</missionStart>
+<missionEnd>loadConditionalActions:HubEndActions/08Actions.xml</missionEnd>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Innocence" reqs="05">
+A client has asked us to remove an innocent man's Death Row record.
+</posting>
+
+<email>
+<sender>Quartz</sender>
+<subject>Innocence</subject>
+<body>#PLAYERNAME#,
+There was an innocent man on Death Row. A client has asked us to remove his record from the database.
+The client has said they don't want his memory tainted, so they would like his Death Row record removed.
+The target's name is Jamie Acasio.
+I'll link you to the Death Row Database. I've also provided a new program for you to use. I've uploaded it onto the drop server.
+
+Good luck,
+-Quartz</body>
+<attachments>
+<note title="Mission Details">Access the Death Row Database
+Delete Jamie Acasio's record</note>
+<link comp="deathRow"/>
+</attachments>
+</email>
+</mission>

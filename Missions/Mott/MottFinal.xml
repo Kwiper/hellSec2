@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="mottFinal" activeCheck="true">
+
+<goals>
+<goal type="filedeletion" target="mott" file="Mott_Heart.exe" path="sys"/>
+</goals>
+
+<missionEnd>loadConditionalActions:Actions/MottFinalActions.xml</missionEnd>
+
+<nextMission IsSilent="true">NONE</nextMission>
+
+<email>
+<sender>Mott</sender>
+<subject>Just Mott</subject>
+<body>:}</body>
+<attachments>
+</attachments>
+</email>
+
+</mission>

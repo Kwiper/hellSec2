@@ -1,0 +1,11 @@
+<ConditionalActions>
+
+<Instantly>
+<RunFunction FunctionName="addRank" FunctionValue="10"/>
+<RunFunction FunctionName="addFlags:05,SSL1,SSL2"/>
+<RunFunction FunctionName="removeFlags:SQL2"/>
+<AddAsset FileName="SSLTrojan.exe" FileContents="#SSL_EXE#" TargetComp="hellDrop" TargetFolderpath="bin"/>
+
+</Instantly>
+
+</ConditionalActions>

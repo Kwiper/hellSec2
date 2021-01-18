@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="unityPlayer" activeCheck="false" shouldIgnoreSenderVerification="false">
+
+<goals>
+<goal type="fileupload" target="hellDrop" file="RTSPCrack.exe" path="bin" destTarget="hellDrop" destPath="Drop/Uploads"/>
+</goals>
+
+<missionStart>playCustomSong:Music/Metamorphose.ogg</missionStart>
+
+<missionEnd val="10">addRankSilent</missionEnd>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Gathering Resources - #PLAYERNAME#">
+Gather a much-needed tool in preparation for the endgame with Unity.
+</posting>
+
+<email>
+<sender>Z3r0</sender>
+<subject>Gathering Resources - #PLAYERNAME#</subject>
+<body>#PLAYERNAME#,
+The time to take down Unity is rapidly approaching. However, we cannot take them down without one very important asset.
+You may remember from last year when you infiltrated my network, you came across a program called RTSPCrack. Unfortunately, this program was wiped from everyone's computer during the government takeover of hellSec and, of course, my arrest.
+Your task will be to recover this program. I will link you to a place that has it. Once you find it, upload it to the drop server.
+
+Good luck,
+-Z3r0</body>
+<attachments>
+<note title="Mission Details">Find RTSPCrack.exe
+Upload to drop server</note>
+<link comp="rtspCyber"/>
+</attachments>
+</email>
+</mission>

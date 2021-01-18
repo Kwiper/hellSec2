@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="hub11" activeCheck="false" shouldIgnoreSenderVerification="false">
+
+<goals>
+<goal type="fileupload" target="cocytusPhone" file="sms_log_251.dat" path="home" destTarget="hellDrop" destPath="Drop/Uploads"/>
+</goals>
+
+<missionStart suppress="true">loadConditionalActions:HubStartActions/11Actions.xml</missionStart>
+<missionEnd>loadConditionalActions:HubEndActions/11Actions.xml</missionEnd>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Case Closed" reqs="01, 02, 03, 04, 05, 06, 07, 08, 09">
+A police precinct has asked us to find some evidence that will solve a case of theirs.</posting>
+
+<email>
+<sender>Quartz</sender>
+<subject>Case Closed</subject>
+<body>#PLAYERNAME#
+Never have we been recognized by law enforcement like this. Our work must have garnered a positive reception now.
+Anywho, this police precinct has asked us to find evidence pertaining to a drug bust case they're working on.
+They want us to find evidence that proves a certain target will be involved in a drug deal going down soon.
+They've linked us to the target's last known location. If you can find any evidence, upload it to the drop server.
+
+-Quartz</body>
+<attachments>
+<note title="Mission Details">Investigate the target's involvement in a drug deal
+Investigate their last known location
+Find evidence pertaining to a drug deal that's going down soon
+Upload to drop server</note>
+<link comp="cocytusComp"/>
+</attachments>
+</email>
+</mission>

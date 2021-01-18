@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="z3r0Day2" activeCheck="true" shouldIgnoreSenderVerification="false">
+
+<goals>
+<goal type="clearfolder" target="morpheus1" path="home"/>
+<goal type="clearfolder" target="morpheus1" path="log"/>
+<goal type="clearfolder" target="morpheus1" path="bin"/>
+<goal type="clearfolder" target="morpheus1" path="sys"/>
+</goals>
+
+<missionEnd>loadConditionalActions:Actions/Z3r0DayMorpheusActions.xml</missionEnd>
+
+<nextMission IsSilent="false">Missions/Z3r0Day/Z3r0Day3.xml</nextMission>
+
+<email>
+<sender>Z3r0</sender>
+<subject>Z3r0 Day</subject>
+<body>#PLAYERNAME#, what a surprise.
+Then again, I shouldn't be surprised you found my node and downloaded that secret message. So, you want to take part in this little mission?
+Rhetorical question, you wouldn't have downloaded the file if you didn't want to. To business.
+Remember Morpheus? He was... an old colleague, and a former adversary. You may also remember he used to work on Project M with me. I thought I was done with Project M, but it seems that's not the case.
+Morpheus has been trying to resurrect Project M, under the name Remnant M. This is the perfect opportunity to take care of Morpheus and Project M for the last time. 
+I've already dealt with some of his nodes. I want you to take a look at one. Infiltrate it, and delete everything. Even files not related to Project M. Everything.
+
+I'll be counting on you,
+Z3r0</body>
+<attachments>
+<link comp="morpheus1"/>
+</attachments>
+</email>
+</mission>

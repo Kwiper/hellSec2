@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="z3r0Day1" activeCheck="true" shouldIgnoreSenderVerification="false">
+
+<goals>
+<goal type="filedownload" target="z3r0" file="Z3r0_Day.txt" path="home"/>
+</goals>
+
+<missionEnd>loadConditionalActions:Actions/Z3r0DayDownloadActions.xml</missionEnd>
+
+<nextMission IsSilent="true">Missions/Z3r0Day/Z3r0Day2.xml</nextMission>
+
+<email>
+<sender>Z3r0</sender>
+<subject>ERROR</subject>
+<body>ERROR</body>
+<attachments>
+</attachments>
+</email>
+
+</mission>
